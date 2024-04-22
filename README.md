@@ -2,7 +2,7 @@
 
 ### Basic Testing & QA Skills
 
-**1. Software Development Life Cycle (SDLC):** planning, design, development, testing, deployment, maintenance.
+**1. Software Development Lifecycle (SDLC):** planning, design, development, testing, deployment, maintenance.
 
 **2. Test Case Design:** fundamentals of creating test cases that cover different functionalities and potential scenarios.
 
