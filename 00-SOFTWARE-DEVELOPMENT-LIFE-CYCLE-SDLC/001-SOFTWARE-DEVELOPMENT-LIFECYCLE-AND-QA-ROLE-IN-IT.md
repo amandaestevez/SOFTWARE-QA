@@ -34,27 +34,25 @@ The design phase is like laying out the blueprints for a building. Here, the dev
 | Analyzing dataflow diagrams | 
 | Participating in design reviews |
 
-
 Here's an example dataflow datagram for the ZippyBank app:
 
-```mermaid
-graph LR
-A[User Interface] --> B{Enter Username}
-B --> C{Validate Username with Account Database}
-C -->|Valid Username| D[Generate Session Token]
-C -->|Invalid Username| E{Display Error Message}
-D --> F[Store Session Token in Cookie]
-F --> G[Grant Access to Account]
-A --> B{Enter Password}
-B --> C{Validate Password with Account Database}
-C -->|Valid Password| D
-C -->|Invalid Password| E
-```
+![image](https://github.com/amandaestevez/softwareqa/assets/123298275/c87702de-5c32-47e2-9320-df286e3038fc)
 
 And an example of feedback provided to help make the data flow more comprehensible and avoid bottlenecks for the developers:
 
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/bdb391ae-8cb4-4f0c-a3b8-909bdd8fe700)
 
+### Phase 03: Development
+This is where the code is written and the software is brought to life. Here, developers translate the blueprints created in the design phase into functional software.
 
+| EXAMPLE OF TESTING & QA ROLES IN DEVELOPMENT |
+|-----------------------------------------|
+| Reviewing code |
+| Test plan refinement | 
+| Early usability testing collaboration |
 
+The screenshot below is a sample of a test plan built for ZippyBank. Although the test plan is much more extensive, here will see just the Features to Be Tested, Features Not to Be Tested, Testing Approach, and Pass/Fail Criteria:
+![image](https://github.com/amandaestevez/softwareqa/assets/123298275/9a136c98-186b-4438-a232-e67dda7ed25f)
+![image](https://github.com/amandaestevez/softwareqa/assets/123298275/0271136c-fe2e-4dd8-8a37-00c33baedd44)
 
+Keep in mind that this is just a sample, and I selected those features based on actual banking apps.
