@@ -92,3 +92,10 @@ The ongoing process of keeping the software up-to-date, functional, and secure a
 | Regression testing |
 | Defect management and verification | 
 | Performance monitoring and optimization|
+
+When it comes to performance monitoring and optimization, these are the KPIs I would focus on for ZippyBank's project (to start with - the list can change as the project evolves):
+
+![image](https://github.com/amandaestevez/softwareqa/assets/123298275/86686090-cc85-431f-ba33-90bb3d46c53f)
+
+### Conclusion
+Testing and QA play a vital role throughout the entire Software Development Lifecycle. From identifying risks in the planning phase to monitoring performance in maintenance, testers and QA specialists ensure the quality, functionality, and user experience of the software at every stage with a well-integrated testing strategy for a successful software development process.
