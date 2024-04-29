@@ -1,10 +1,10 @@
 # SLDC - TESTING & QA
 
-_This document is for ***educational purposes*** only. I've included a login validation scenario for a mobile banking app to keep the document simple, yet comprehensive._
+_This document is for ***educational purposes*** only. I've included a login validation scenario for a fictional mobile banking app to keep the document simple, yet comprehensive._
 
    
 ## What is the Software Development Lifecycle (SDLC)?
-SDLC is a process used to create software that meets the stakeholders' requirements cost-efficiently. It helps developers avoid rework by building software as per the client's needs and receiving constant feedback.
+SDLC is a process used to create software that meets the stakeholders' requirements cost-efficiently. It helps developers avoid rework by building software per the client's needs and receiving constant feedback.
 
 ## Testing & The Software Development Lifecycle
 The below RUP diagram created by IBM shows that Testing & QA is present throughout the entire SDLC:
@@ -52,7 +52,43 @@ This is where the code is written and the software is brought to life. Here, dev
 | Early usability testing collaboration |
 
 The screenshot below is a sample of a test plan built for ZippyBank. Although the test plan is much more extensive, here will see just the Features to Be Tested, Features Not to Be Tested, Testing Approach, and Pass/Fail Criteria:
+
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/9a136c98-186b-4438-a232-e67dda7ed25f)
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/0271136c-fe2e-4dd8-8a37-00c33baedd44)
 
-Keep in mind that this is just a sample, and I selected those features based on actual banking apps.
+Keep in mind that this is just a sample with features I selected based on the Banking apps I've used.
+
+### Phase 04: Testing
+The quality checkpoint. Here, the built software is meticulously examined to identify bugs, ensure functionality meets requirements, and guarantee a smooth user experience. This phase is where the test plan, refined during development, comes into action.
+
+| EXAMPLE OF ACTIVITIES IN THE TESTING PHASE |
+|-----------------------------------------|
+| Writing and executing the pre-defined test cases |
+| Bug reporting | 
+| Test results analysis & reporting |
+
+Below is a sample-sized Test Case example I created for the app's login function:
+
+![image](https://github.com/amandaestevez/softwareqa/assets/123298275/8761f31a-511f-4fc0-b8fe-5fde9b52193d)
+
+### Phase 05: Deployment
+The finished software is released to its intended audience. Here, the focus is on getting the software up and running smoothly in its final environment. But QA's job isn't over yet! They play a crucial role in ensuring a successful deployment.
+
+| EXAMPLE OF TESTING & QA ROLES IN DEPLOYMENT |
+|-----------------------------------------|
+| Deployment validation |
+| Post-deployment testing | 
+| Monitoring and supporting |
+
+This is a deployment checklist I like to use during the deployment process to avoid pitfalls. This checklist is a general guide, and specific tasks may vary depending on the deployment approach and project needs.
+
+![image](https://github.com/amandaestevez/softwareqa/assets/123298275/3b071824-5039-4c67-bb93-7e5c8ee5acda)
+
+### Phase 06: Maintenance
+The ongoing process of keeping the software up-to-date, functional, and secure after deployment. Here, the QA's role shifts from deployment validation to ongoing monitoring and testing, ensuring the software's quality and user experience throughout its lifespan.
+
+| EXAMPLE OF TESTING & QA ROLES IN DEPLOYMENT |
+|-----------------------------------------|
+| Regression testing |
+| Defect management and verification | 
+| Performance monitoring and optimization|
