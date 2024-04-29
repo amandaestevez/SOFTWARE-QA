@@ -97,5 +97,5 @@ When it comes to performance monitoring and optimization, these are the KPIs I w
 
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/86686090-cc85-431f-ba33-90bb3d46c53f)
 
-### Conclusion
+## Conclusion
 Testing and QA play a vital role throughout the entire Software Development Lifecycle. From identifying risks in the planning phase to monitoring performance in maintenance, testers and QA specialists ensure the quality, functionality, and user experience of the software at every stage with a well-integrated testing strategy for a successful software development process.
