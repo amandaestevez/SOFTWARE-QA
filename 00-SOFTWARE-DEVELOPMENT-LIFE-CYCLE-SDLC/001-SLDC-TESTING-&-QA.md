@@ -21,7 +21,9 @@ This phase focuses on understanding the needs, defining the project scope, and c
 | Providing Input on Feasibility |
 
 
-This is an example of a project called ZippyBank, where I assessed the potential risks, challenges, and improvements of the login requirements and included them as comments. I created the template, but it can be adapted depending on the needs of the project/tester.
+This is an example of a project called ZippyBank, where I assessed the potential risks, challenges, and improvements of the login requirements and included them as comments. 
+
+Although there are several Software Requirements Specification templates online, I couldn't find a document where Testers and the QA team could include their feedback, so I created the template below. It can be adapted depending on the needs of the project/tester.
 
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/e3b928e7-18c3-4144-ba42-525c5d5a2243)
 
@@ -41,6 +43,8 @@ Here's an example dataflow datagram for the ZippyBank app:
 And an example of feedback provided to help make the data flow more comprehensible and avoid bottlenecks for the developers:
 
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/bdb391ae-8cb4-4f0c-a3b8-909bdd8fe700)
+
+Feedback during the design phase is essential to prevent developers from writing modules that don't work or don't work as they are supposed to. However, finding an online template was extremely challenging, so I created the one above.
 
 ### Phase 03: Development
 This is where the code is written and the software is brought to life. Here, developers translate the blueprints created in the design phase into functional software.
@@ -80,12 +84,12 @@ The finished software is released to its intended audience. Here, the focus is o
 | Post-deployment testing | 
 | Monitoring and supporting |
 
-This is a deployment checklist I like to use during the deployment process to avoid pitfalls. This checklist is a general guide, and specific tasks may vary depending on the deployment approach and project needs.
+This is a deployment checklist I created to use during the deployment process to avoid pitfalls after not finding one. However, it is a general guide, and specific tasks may vary depending on the deployment approach and project needs.
 
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/3b071824-5039-4c67-bb93-7e5c8ee5acda)
 
 ### Phase 06: Maintenance
-The ongoing process of keeping the software up-to-date, functional, and secure after deployment. Here, the QA's role shifts from deployment validation to ongoing monitoring and testing, ensuring the software's quality and user experience throughout its lifespan.
+Keeping the software up-to-date, functional, and secure after deployment is ongoing. Here, the QA's role shifts from deployment validation to ongoing monitoring and testing, ensuring the software's quality and user experience throughout its lifespan.
 
 | EXAMPLE OF TESTING & QA ROLES IN DEPLOYMENT |
 |-----------------------------------------|
@@ -97,5 +101,7 @@ When it comes to performance monitoring and optimization, these are the KPIs I w
 
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/86686090-cc85-431f-ba33-90bb3d46c53f)
 
+I created the template above to be as simple as possible so the entire team can understand what we're measuring. 
+
 ## Conclusion
-Testing and QA play a vital role throughout the entire Software Development Lifecycle. From identifying risks in the planning phase to monitoring performance in maintenance, testers and QA specialists ensure the quality, functionality, and user experience of the software at every stage with a well-integrated testing strategy for a successful software development process.
+Testing and QA play a vital role throughout the entire Software Development Lifecycle. From identifying risks in the planning phase to monitoring performance in maintenance, testers, and QA specialists ensure the software's quality, functionality, and user experience at every stage with a well-integrated testing strategy for a successful software development process.
