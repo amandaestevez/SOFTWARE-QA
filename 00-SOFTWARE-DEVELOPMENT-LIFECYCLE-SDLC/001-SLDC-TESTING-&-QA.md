@@ -1,8 +1,15 @@
 # SLDC - TESTING & QA
 
-_This document is for ***educational purposes*** only. I've included a login validation scenario for a fictional mobile banking app to keep the document simple, yet comprehensive._
+_This document outlines the testing & QA roles in the software development lifecycle. It is valid whether one person or an entire team performs testing. To exemplify, we will follow the story of the development of a fictional mobile banking app called ZippyBank._
 
-   
+| TABLE OF CONTENT |
+|------------------|
+|1. What's the Software Development Lifecycle (SDLC)?|
+|2.Testing & The Software Development Lifecycle |
+|3. Phases of the SDLC & Testing |
+|4. Conclusion | 
+
+
 ## What is the Software Development Lifecycle (SDLC)?
 SDLC is a process used to create software that meets the stakeholders' requirements cost-efficiently. It helps developers avoid rework by building software per the client's needs and receiving constant feedback.
 
@@ -11,8 +18,11 @@ The below RUP diagram created by IBM shows that Testing & QA is present througho
 
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/1e9d2107-61f6-4e98-ad4f-14ecb8ef0fdf)
 
+## Methodology
+## Phases of the SDLC & Testing
+
 ### Phase 01: Planning
-This phase focuses on understanding the needs, defining the project scope, and creating a solid execution plan.
+Understanding the needs, defining the project scope, and creating a solid execution plan.
 
 | EXAMPLE OF TESTING & QA ROLES IN PLANNING |
 |-------------------------------------------|
@@ -20,10 +30,9 @@ This phase focuses on understanding the needs, defining the project scope, and c
 | Defining Testability | 
 | Providing Input on Feasibility |
 
+The example below is a template I created to assess the potential risks, challenges, and improvements of the login requirements and include them as comments. 
 
-This is an example of a project called ZippyBank, where I assessed the potential risks, challenges, and improvements of the login requirements and included them as comments. 
-
-Although there are several Software Requirements Specification templates online, I couldn't find a document where Testers and the QA team could include their feedback, so I created the template below. It can be adapted depending on the needs of the project/tester.
+Although there are several Software Requirements Specification templates online, I couldn't find a document where Testers and the QA team could include their feedback, so I created it. It can be adapted depending on the needs of the project/tester.
 
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/e3b928e7-18c3-4144-ba42-525c5d5a2243)
 
@@ -105,3 +114,5 @@ I created the template above to be as simple as possible so the entire team can 
 
 ## Conclusion
 Testing and QA play a vital role throughout the entire Software Development Lifecycle. From identifying risks in the planning phase to monitoring performance in maintenance, testers, and QA specialists ensure the software's quality, functionality, and user experience at every stage with a well-integrated testing strategy for a successful software development process.
+
+The next chapter introduces the anatomy of a test case, and we will dive deeper into ZippyBank's test case design.
