@@ -1,6 +1,8 @@
 # SLDC - TESTING & QA
 
+
 _This document outlines the testing & QA roles in the software development lifecycle. It is valid whether one person or an entire team performs testing. To exemplify, we will follow the story of the development of a fictional mobile banking app called ZippyBank._
+
 
 | TABLE OF CONTENT |
 |------------------|
@@ -11,7 +13,14 @@ _This document outlines the testing & QA roles in the software development lifec
 
 
 ## What is the Software Development Lifecycle (SDLC)?
-SDLC is a process used to create software that meets the stakeholders' requirements cost-efficiently. It helps developers avoid rework by building software per the client's needs and receiving constant feedback.
+SDLC is a process used to create software that meets the stakeholders' requirements cost-efficiently. It helps developers avoid rework by building software per the client's needs and receiving constant feedback. 
+
+Examples of the different SLDC models include: Waterfall and V-model (sequential); spiral model and prototyping (iterative); and united process (incremental).
+
+
+## Why is the SDLC Choice Relevant to Testing?
+
+According to the [ISTQB Certified Tester - Foundation Level Syllabus - v4.0](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf), testing must be adapted to the chosen SDLC process to succeed. The SDLC method deeply impacts the scope and timing of testing activities.
 
 ## Testing & The Software Development Lifecycle
 The below RUP diagram created by IBM shows that Testing & QA is present throughout the entire SDLC:
@@ -19,6 +28,18 @@ The below RUP diagram created by IBM shows that Testing & QA is present througho
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/1e9d2107-61f6-4e98-ad4f-14ecb8ef0fdf)
 
 ## Methodology
+
+This document will employ a case-study methodology to showcase Testing & QA integration throughout the SDLC using ZippyBank, a fictional mobile banking app. We'll explore the six SDLC phases with ZippyBank examples, like identifying risks in planning and using checklists for deployment validation. This will illustrate how a well-integrated testing strategy ensures software quality from conception to maintenance.
+
+Although the chosen SDLC impacts the testing activities performed, we will focus on the testing best practices as established by the ISTQB rather than focusing on a single SDLC:
+
+>1. For every software development activity, there is a corresponding test activity, so that all development activities are subject to quality control;
+>2. Different test levels have specific and different test objectives, which allows for testing to be appropriately comprehensive while avoiding redundancy;
+>3. Test analysis and design for a given test level begins during the corresponding development phase of the SDLC, so that testing can adhere to the principle of early testing;
+>4. Testers are involved in reviewing work products as soon as drafts of this documentation are available, so that this earlier testing and defect detection can support the shift-left strategy.
+
+This way, the documentation and instructions used here can be adapted and applied through the different models.
+
 ## Phases of the SDLC & Testing
 
 ### Phase 01: Planning
@@ -116,3 +137,7 @@ I created the template above to be as simple as possible so the entire team can 
 Testing and QA play a vital role throughout the entire Software Development Lifecycle. From identifying risks in the planning phase to monitoring performance in maintenance, testers, and QA specialists ensure the software's quality, functionality, and user experience at every stage with a well-integrated testing strategy for a successful software development process.
 
 The next chapter introduces the anatomy of a test case, and we will dive deeper into ZippyBank's test case design.
+
+## References
+- Cerquozzi, R., Decoutere, W., Dussa-Zieger, K., Riverin, J.-F., Hryszko, A., Klonk, M., Pilaeten, M., Posthuma, M., Reid, S., Riou du Cosquer, E. (chair), Roman, A., Stapp, L., Ulrich, S. (vice chair), & Zakaria, E. (2024). [ISTQB Certified Tester - Foundation Level Syllabus - v4.0. ISTQB.](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf);
+- 
