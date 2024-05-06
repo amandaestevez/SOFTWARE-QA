@@ -7,20 +7,24 @@ _This document outlines the testing & QA roles in the software development lifec
 | TABLE OF CONTENT |
 |------------------|
 |1. What's the Software Development Lifecycle (SDLC)?|
-|2.Testing & The Software Development Lifecycle |
-|3. Phases of the SDLC & Testing |
-|4. Conclusion | 
-
+|2. Why Is the SDLC Choice Relevant to Testing? |
+|3.Testing & The Software Development Lifecycle |
+|4. Phases of the SDLC & Testing |
+|5. Conclusion | 
+|6. References |
 
 ## What is the Software Development Lifecycle (SDLC)?
 SDLC is a process used to create software that meets the stakeholders' requirements cost-efficiently. It helps developers avoid rework by building software per the client's needs and receiving constant feedback. 
 
-Examples of the different SLDC models include: Waterfall and V-model (sequential); spiral model and prototyping (iterative); and united process (incremental).
-
+Examples of the different SLDC models include:
+|SEQUENTIAL MODELS | ITERATIVE MODELS | INCREMENTAL MODELS |
+|------------------|------------------|--------------------|
+| Waterfall | Spiral model | United Process |
+| V-model | Prototyping | Feature-Driven Development (FDD) |
 
 ## Why is the SDLC Choice Relevant to Testing?
 
-According to the [ISTQB Certified Tester - Foundation Level Syllabus - v4.0](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf), testing must be adapted to the chosen SDLC process to succeed. The SDLC method deeply impacts the scope and timing of testing activities.
+According to the [ISTQB Certified Tester - Foundation Level Syllabus - v4.0](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf), **testing must be adapted to the chosen SDLC process to succeed**. The SDLC method deeply impacts the scope and timing of testing activities.
 
 ## Testing & The Software Development Lifecycle
 The below RUP diagram created by IBM shows that Testing & QA is present throughout the entire SDLC:
