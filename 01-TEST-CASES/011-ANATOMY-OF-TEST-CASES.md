@@ -1,18 +1,49 @@
+## The Anatomy of a Test Case
+
+## Abstract
+
+Inconsistent test case formats can hinder software development. This document outlines a well-defined, standardized test case structure based on established best practices. It details the core components of a test case, like test case ID, description, and pass/fail criteria. By adopting this standardized approach, projects can benefit from improved clarity, increased efficiency in test creation and execution, reduced errors due to clear pass/fail criteria, and streamlined traceability for defect tracking.
+
+## What's a Test Case?
+A test case is a set of instructions that checks if *software works as planned*, with specific steps, inputs, and expected results.
+
+![image](https://github.com/amandaestevez/softwareqa/assets/123298275/6b31b196-8028-4603-8ff1-afb3145fff9c)
+
+The image above shows the test case structure we will detail in the following paragraphs.
+
+## Why Are Test Cases Important?
+Test cases act as a safety net in software development. By planning tests beforehand, ***we can identify issues early on, saving time and money compared to fixing bugs after release***. They ensure the software works as intended, preventing frustrating crashes and glitches for users.
+
+Well-defined test cases are the cornerstone of robust software testing within the Software Development Lifecycle (SDLC).  A consistent test case structure streamlines the testing process, promotes clarity for all stakeholders, and enhances software quality. 
+
+## Methodology:
+
+This document establishes a standardized structure for test case development within this project. This approach fosters clear, concise, and efficient testing practices, ultimately contributing to delivering high-quality software. 
+
+We will use the example of a test case written for a fictional mobile banking app called *ZippyBank* to illustrate each test case component.
+
 ## Standardized Test Case Structure for Enhanced Software Quality
+It is a good practice that test cases follow the structure below, creating a well-defined format that facilitates efficient test creation, execution, and management:
 
-**Abstract:**
+* **Test Case ID:**  A unique identifier assigned to each test case for easy reference and traceability within the testing process. 
 
-This document establishes a standardized structure for test case development within this project. This approach fosters clear, concise, and efficient testing practices, ultimately contributing to the delivery of high-quality software. Well-defined test cases are the cornerstone of robust software testing within the Software Development Lifecycle (SDLC).  A consistent test case structure streamlines the testing process, promotes clarity for all stakeholders, and enhances software quality. This document details the recommended structure for test cases within this project, ensuring effective and efficient testing practices. 
+![image](https://github.com/amandaestevez/softwareqa/assets/123298275/4554f43a-57a1-4e71-b504-2ed0a3ea0d34)
 
-**Methodology:**
+ It simplifies test organization and retrieval, allowing testers to quickly locate specific test cases during execution or reporting phases.
 
-All test cases within this repository will adhere to the following structure, creating a well-defined format that facilitates efficient test creation, execution, and management:
+* **Test Case Description:**  A clear and concise description of the functionality or scenario being tested.
 
-* **Test Case ID:**  A unique identifier assigned to each test case for easy reference and traceability within the testing process.  This ID simplifies test organization and retrieval, allowing testers to quickly locate specific test cases during execution or reporting phases.
+![image](https://github.com/amandaestevez/softwareqa/assets/123298275/fb0f28f6-f4ce-4acd-bb25-f8bd0c8c2c29)
 
-* **Test Case Description:**  A clear and concise description of the functionality or scenario being tested.  This description should be crafted for comprehension by both technical and non-technical stakeholders.  For instance, a test case description might state: "Verify user login functionality with valid credentials."  This straightforward approach ensures everyone understands the intended purpose of the test case.
+This description should be crafted for comprehension by both technical and non-technical stakeholders.
 
-* **Pre-Conditions:**  A list of any specific conditions that must be met before executing the test case.  This may include system configurations, specific data setup requirements, or user permissions necessary for test execution.  Documenting pre-conditions eliminates ambiguity and ensures a consistent testing environment for all test cases.  For example, a pre-condition might specify: "User account with valid credentials must be created before test execution."
+* **Dependencies:** External factors that rely on the successful execution of other test cases before the current test case can be run. 
+
+* **Pre-Conditions:**  Specific conditions within the testing environment that must be met before running a test case. This may include system configurations, specific data setup requirements, or user permissions necessary for test execution.
+
+![image](https://github.com/amandaestevez/softwareqa/assets/123298275/b2a6be98-b6f3-419d-96f7-4e6500fedbbe)
+
+Documenting pre-conditions eliminates ambiguity and ensures a consistent testing environment for all test cases. 
 
 * **Test Steps:**  A numbered sequence of steps outlining the actions the tester will perform to execute the test.  Each step should be clear, concise, and actionable, ensuring unambiguous execution.  Numbered steps promote a structured testing approach, minimizing the risk of missed steps or errors during test execution.  An example of clear test steps might be: "1. Navigate to the login page. 2. Enter a valid username in the username field. 3. Enter a valid password in the password field. 4. Click the 'Login' button."
 
