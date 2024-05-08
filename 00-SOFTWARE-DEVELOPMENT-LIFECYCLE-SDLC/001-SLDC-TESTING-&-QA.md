@@ -107,7 +107,7 @@ The quality checkpoint. Here, the built software is meticulously examined to ide
 
 Below is a sample-sized Test Case example I created for the app's login function:
 
-![image](https://github.com/amandaestevez/softwareqa/assets/123298275/8761f31a-511f-4fc0-b8fe-5fde9b52193d)
+![image](https://github.com/amandaestevez/softwareqa/assets/123298275/91b1417d-aee3-4a4f-a47e-0534bcbee6a3)
 
 ### Phase 05: Deployment
 The finished software is released to its intended audience. Here, the focus is on getting the software up and running smoothly in its final environment. But QA's job isn't over yet! They play a crucial role in ensuring a successful deployment.
