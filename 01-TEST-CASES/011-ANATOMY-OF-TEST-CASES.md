@@ -6,10 +6,11 @@ Inconsistent test case formats can hinder software development. This document ou
 
 |TABLE OF CONTENT | THE ANATOMY OF A TEST CASE |
 |-----------------|----------------------------|
-| 1. | [What's a Test Case?](Standardized Test Case Structure for Enhanced Software Quality) |
+| 1. | What's a Test Case? |
 | 2. | Why Are Test Cases Important? |
 | 3. | Methodology |
 | 4. | Standardized Test Case Structure for Enhanced Software Quality |
+| 5. | Conclusion |
 
 ## What's a Test Case?
 A test case is a set of instructions that checks if *software works as planned*, with specific steps, inputs, and expected results.
