@@ -20,24 +20,25 @@ A test case is a set of instructions that checks if *software works as planned*,
 The image above shows the test case structure we will detail in the following paragraphs.
 
 ## Why Are Test Cases Important?
-Test cases act as a safety net in software development. By planning tests, ***we can identify issues early on, saving time and money compared to fixing bugs after release***. They ensure the software works as intended, preventing frustrating crashes and glitches for users.
+They ensure the software works as intended, preventing frustrating crashes and glitches for users. By planning tests, ***we can identify issues early on, saving time and money compared to fixing bugs after release***. 
 
 Well-defined test cases are the cornerstone of robust software testing within the Software Development Lifecycle (SDLC).  A consistent test case structure streamlines the testing process, promotes clarity for all stakeholders, and enhances software quality. 
 
 ## Methodology:
 
-This document establishes a standardized structure for test case development within this project. This approach fosters clear, concise, and efficient testing practices, ultimately contributing to delivering high-quality software. 
+This document establishes a standardized structure for test case development within this project. This approach fosters clear, concise, and efficient test case creation, ultimately contributing to delivering high-quality software. 
 
 We will use the example of a test case written for a fictional mobile banking app called *ZippyBank* to illustrate each test case component.
 
 ## Standardized Test Case Structure for Enhanced Software Quality
+
 It is a good practice that test cases follow the structure below, creating a well-defined format that facilitates efficient test creation, execution, and management:
 
 * **Test Case ID:**  A unique identifier assigned to each test case for easy reference and traceability within the testing process. 
 
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/4554f43a-57a1-4e71-b504-2ed0a3ea0d34)
 
- It simplifies test organization and retrieval, allowing testers to quickly locate specific test cases during execution or reporting phases.
+ It simplifies test organization and retrieval, allowing testers to locate specific test cases during execution or reporting phases quickly.
 
 * **Test Case Description:**  A clear and concise description of the functionality or scenario being tested.
 
@@ -69,7 +70,7 @@ In ZippyBank's test case, we selected the username and the password as test data
 
 This minimizes the risk of testers focusing on irrelevant details or missing the core objective.
 
-* **Test Steps:**  A numbered sequence outlining the actions the tester should perform to execute the test.  Each step should be clear, concise, and actionable, ensuring unambiguous execution.
+* **Test Steps:**  A numbered sequence outlining the actions the tester should perform to execute the test. Each step should be clear, concise, and actionable, ensuring unambiguous execution.
 
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/8c7c12b3-6779-44c6-833b-367c24ba96f3)
 
@@ -97,7 +98,7 @@ Clearly defined pass/fail criteria streamline testing and expedite defect identi
 >
 >**Expected Results vs. Pass/Fail Criteria:**
 >
->**Expected Results:** This section describes the anticipated outcome for each test step, focusing on the system's behavior under normal conditions. It paints a picture of what the tester should see on the screen.
+>**Expected Results:** This section describes the anticipated outcome for each test step, _focusing on the system's behavior under normal conditions._ It paints a picture of what the tester should see on the screen.
 >
 >**Pass/Fail Criteria:** This section defines the specific conditions that determine whether the test case has passed or failed. _It goes beyond just describing the expected outcome and sets a clear benchmark for evaluating the actual results._
 
@@ -115,9 +116,9 @@ Specifying post-conditions ensures the testing environment is maintained clean f
 
 * **Additional Information (Optional):**  This section can include relevant details such as:
 
-    * **Severity:**  Classification of the defect identified through the test case (High, Medium, Low).  Severity helps prioritize bug fixes based on potential impact. It can be included as a separate section in the test case. However, the best practice is to report it in a separate defect tracking system.
+    * **Severity:**  Classification of the defect identified through the test case (High, Medium, Low). Severity helps prioritize bug fixes based on potential impact. It can be included as a separate section in the test case. However, the best practice is to report it in a separate defect tracking system.
 
-    * **Priority:**  Prioritization of the test case for execution (High, Medium, Low).  Prioritization guides testing efforts, ensuring critical functionalities are tested first.
+    * **Priority:**  Prioritization of the test case for execution (High, Medium, Low). Prioritization guides testing efforts, ensuring critical functionalities are tested first.
   
     ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/20200b3a-7f76-4fe1-87fc-16880f5c0d6c)
 
@@ -129,4 +130,4 @@ Specifying post-conditions ensures the testing environment is maintained clean f
 
 ## Conclusion
 
-This project establishes a robust foundation for efficient and effective software testing by adhering to a standardized test case structure.  This well-defined approach fosters clear communication, enhances testing efficiency, minimizes errors, and streamlines traceability throughout the development lifecycle. A standardized test case structure is pivotal in delivering high-quality software that meets user expectations and business requirements.
+This project establishes a robust foundation for efficient and effective software testing by adhering to a standardized test case structure. This well-defined approach fosters clear communication, enhances testing efficiency, minimizes errors, and streamlines traceability throughout the development lifecycle. A standardized test case structure is pivotal in delivering high-quality software that meets user expectations and business requirements.
