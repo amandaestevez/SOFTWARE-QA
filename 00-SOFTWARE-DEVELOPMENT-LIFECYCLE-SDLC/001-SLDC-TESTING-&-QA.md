@@ -22,11 +22,12 @@ Examples of the different SLDC models include:
 | Waterfall | Spiral model | United Process |
 | V-model | Prototyping | Feature-Driven Development (FDD) |
 
-The six core phases we shall see below form the foundation of various SDLC models, which arrange them differently to fit project needs.
 
 ## Why is the SDLC Choice Relevant to Testing?
 
 According to the [ISTQB Certified Tester - Foundation Level Syllabus - v4.0](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf), **testing must be adapted to the chosen SDLC process to succeed**. The SDLC method deeply impacts the scope and timing of testing activities.
+
+The six core phases we shall see below form the foundation of various SDLC models, which arrange them differently to fit project needs.
 
 ## Testing & The Software Development Lifecycle
 The below RUP(Rational Unified Process) diagram created by IBM shows that Testing & QA is present throughout the entire SDLC:
