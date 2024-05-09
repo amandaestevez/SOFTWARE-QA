@@ -3,7 +3,7 @@
 ### Previously
 In the previous chapter([click here to read it](https://github.com/amandaestevez/softwareqa/blob/3881ac15dfa8e1b06ae15f38b52bbf23335505bf/00-SOFTWARE-DEVELOPMENT-LIFECYCLE-SDLC/001-SLDC-TESTING-%26-QA.md)), you saw the main activities that ZippyBank's testing team worked on throughout the entire Software Development Lifecycle (SDLC). Now you will go through their test case to understand its core components.
 
-
+## Abstract
 Inconsistent test case formats can hinder software development. This document outlines a well-defined, standardized test case structure based on the industry's established best practices, detailing the core components of a test case.
 
 By adopting this standardized approach, projects can benefit from improved clarity, increased efficiency in test creation and execution, reduced errors due to clear pass/fail criteria, and streamlined traceability for defect tracking.
