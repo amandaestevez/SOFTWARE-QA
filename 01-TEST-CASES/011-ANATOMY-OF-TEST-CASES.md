@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Inconsistent test case formats can hinder software development. This document outlines a well-defined, standardized test case structure based on the industry's established best practices. It details the core components of a test case, like test case ID, description, and pass/fail criteria. 
+Inconsistent test case formats can hinder software development. This document outlines a well-defined, standardized test case structure based on the industry's established best practices, detailing the core components of a test case.
 
 By adopting this standardized approach, projects can benefit from improved clarity, increased efficiency in test creation and execution, reduced errors due to clear pass/fail criteria, and streamlined traceability for defect tracking.
 
