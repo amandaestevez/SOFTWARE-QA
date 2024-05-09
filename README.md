@@ -14,7 +14,7 @@ Users will find resources on:
 
 **1. [Software Development Lifecycle (SDLC):](00-SOFTWARE-DEVELOPMENT-LIFE-CYCLE-SDLC)** Understanding the role of testing within the entire software development process.
 
-**2. Test Case Design:** Crafting effective test cases that cover functionalities and potential scenarios.
+**2. [Test Case Design:](https://github.com/amandaestevez/softwareqa/blob/efdf2923fb846e50d1dcf2929510f433d04bfb6d/01-TEST-CASES/011-ANATOMY-OF-TEST-CASES.md)** Crafting effective test cases that cover functionalities and potential scenarios.
 
 **3. Bug Reporting:** Efficiently documenting bugs with steps to reproduce, expected behavior, and actual behavior.
 
