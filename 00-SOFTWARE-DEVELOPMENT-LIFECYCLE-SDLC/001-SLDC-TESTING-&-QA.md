@@ -143,7 +143,7 @@ I created the template above to be as simple as possible so the entire team can 
 ## Conclusion
 Testing and QA play a vital role throughout the entire Software Development Lifecycle. From identifying risks in the planning phase to monitoring performance in maintenance, testers, and QA specialists ensure the software's quality, functionality, and user experience at every stage with a well-integrated testing strategy for a successful software development process.
 
-The next chapter introduces the anatomy of a test case, and we will dive deeper into ZippyBank's test case design.
+The next chapter introduces the anatomy of a test case, and we will dive deeper into ZippyBank's test case design. [Click here to access it](https://github.com/amandaestevez/softwareqa/blob/efdf2923fb846e50d1dcf2929510f433d04bfb6d/01-TEST-CASES/011-ANATOMY-OF-TEST-CASES.md)
 
 ## References
 - Cerquozzi, R., Decoutere, W., Dussa-Zieger, K., Riverin, J.-F., Hryszko, A., Klonk, M., Pilaeten, M., Posthuma, M., Reid, S., Riou du Cosquer, E. (chair), Roman, A., Stapp, L., Ulrich, S. (vice chair), & Zakaria, E. (2024). [ISTQB Certified Tester - Foundation Level Syllabus - v4.0. ISTQB.](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf);
