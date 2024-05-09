@@ -28,7 +28,9 @@ Well-defined test cases are the cornerstone of robust software testing within th
 
 ## Methodology:
 
-This document establishes a standardized structure for test case development within this project. This approach fosters clear, concise, and efficient test case creation, ultimately contributing to delivering high-quality software. 
+This document outlines a standardized structure for test case development. This approach fosters clear, concise, and efficient test case creation, ultimately contributing to delivering high-quality software. 
+
+Although the design may vary between companies, these core components remain crucial in ensuring the tests are performed correctly.
 
 We will use the example of a test case written for a fictional mobile banking app called *ZippyBank* to illustrate each test case component.
 
