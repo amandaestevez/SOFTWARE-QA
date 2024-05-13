@@ -16,7 +16,7 @@ Users will find resources on:
 
 **2. [The Anatomy of a Test Case:](https://github.com/amandaestevez/softwareqa/blob/efdf2923fb846e50d1dcf2929510f433d04bfb6d/01-TEST-CASES/011-ANATOMY-OF-TEST-CASES.md)** Crafting effective test cases that ensure errors and bugs are caught earlier in the development process.
 
-**3. Bug Reporting:** Efficiently documenting bugs with steps to reproduce, expected behavior, and actual behavior.
+**3. [Bug Reporting:](https://github.com/amandaestevez/softwareqa/tree/58ce499e60cd4fa89eda989b3043abb61f64cdb7/02-BUG-REPORTING)** Efficiently documenting bugs with steps to reproduce, expected behavior, and actual behavior.
 
 **4. Technical Skills:** Basic computer literacy, familiarity with different operating systems (Windows, Mac, etc.), and learning new software.
 
