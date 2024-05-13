@@ -26,7 +26,7 @@ By planning tests, ***we can identify issues early on, saving time and money com
 
 ## Methodology:
 
-This document outlines a standardized structure for test case development. This approach fosters clear, concise, and efficient test case creation, ultimately contributing to delivering high-quality software. 
+This document outlines a standardized structure for test case development through the case study of ZippyBank's mobile app development.
 
 Although the design may vary between companies, these core components remain crucial in ensuring the tests are performed correctly.
 
