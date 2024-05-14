@@ -18,8 +18,6 @@ Users will find resources on:
 
 **3. [Bug Reporting:](https://github.com/amandaestevez/softwareqa/tree/58ce499e60cd4fa89eda989b3043abb61f64cdb7/02-BUG-REPORTING)** Efficiently documenting bugs with steps to reproduce, expected behavior, and actual behavior.
 
-**4. Technical Skills:** Basic computer literacy, familiarity with different operating systems (Windows, Mac, etc.), and learning new software.
-
 ### Intermediate Testing & QA Skills:
 
 **1. Testing Techniques:** Exploring various testing methodologies like black-box, white-box, and exploratory testing.
