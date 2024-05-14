@@ -20,9 +20,9 @@ Users will find resources on:
 
 ### Intermediate Testing & QA Skills:
 
-**1. Testing Techniques:** Exploring various testing methodologies like black-box, white-box, and exploratory testing.
+**1. [Testing Techniques:](https://github.com/amandaestevez/softwareqa/tree/950ecf7869d74bb0433d6e1bdfc57ef180d7fd64/03-TESTING-TECHNIQUES)** Exploring various testing methodologies like black-box, white-box, and exploratory testing.
 
-**2. Test Management Tools:**  Utilizing tools like Jira, Bugzilla, TestRail, and Postman for test case management, bug tracking, and collaboration.
+**2. Test Management Tools:**  Utilizing Jira for test case management, bug tracking, and collaboration.
 
 **3. Agile Methodology:**  Understanding Agile principles and integrating testing into frameworks like Scrum and Kanban.
 
