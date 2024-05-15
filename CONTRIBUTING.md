@@ -1,4 +1,4 @@
-## Contribuiting Guide
+## Contributing Guide
 We're excited you're interested in contributing to this **testing repository!** This document provides guidelines to help you get started and ensure a smooth contribution process.
 
 ## Getting Started
