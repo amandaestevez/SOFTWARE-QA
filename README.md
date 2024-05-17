@@ -50,5 +50,5 @@ Users will find resources on:
 
 
 ## Conclusion
-This well-organized repository serves as a comprehensive resource for anyone interested in exploring software testing concepts at various skill levels.  The focus remains on clear documentation, allowing users to gain insights into diverse testing practices.
+
 
