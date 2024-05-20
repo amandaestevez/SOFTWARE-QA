@@ -16,7 +16,7 @@ Users will find resources on:
 
 **2. [The Anatomy of a Test Case:](https://github.com/amandaestevez/softwareqa/tree/03531fd396603668277c9fbfa25d723c2469f1d0/01-TEST-CASES)** Crafting effective test cases that ensure errors and bugs are caught earlier in the development process.
 
-**3. [Bug Reporting:](https://github.com/amandaestevez/softwareqa/tree/58ce499e60cd4fa89eda989b3043abb61f64cdb7/02-BUG-REPORTING)** Efficiently documenting bugs with steps to reproduce, expected behavior, and actual behavior.
+**3. [Bug Reporting:](https://github.com/amandaestevez/softwareqa/tree/f76ecaf851d7ed7cf56cf84a268a7330aa8f9e80/02-BUG-REPORTING)** Efficiently documenting bugs with steps to reproduce, expected behavior, and actual behavior.
 
 ### Intermediate Testing & QA Skills:
 
