@@ -14,7 +14,7 @@ Users will find resources on:
 
 **1. [Software Development Lifecycle (SDLC) & Testing:](https://github.com/AilenM93/softwareqa/tree/4a16ba48383a24a8a1b2e7a78c6c3090e3c2a3f9/00-SOFTWARE-DEVELOPMENT-LIFECYCLE-SDLC)** Understanding the role of testing within the entire software development lifecycle.
 
-**2. [The Anatomy of a Test Case:](https://github.com/amandaestevez/softwareqa/blob/efdf2923fb846e50d1dcf2929510f433d04bfb6d/01-TEST-CASES/011-ANATOMY-OF-TEST-CASES.md)** Crafting effective test cases that ensure errors and bugs are caught earlier in the development process.
+**2. [The Anatomy of a Test Case:](https://github.com/amandaestevez/softwareqa/tree/03531fd396603668277c9fbfa25d723c2469f1d0/01-TEST-CASES)** Crafting effective test cases that ensure errors and bugs are caught earlier in the development process.
 
 **3. [Bug Reporting:](https://github.com/amandaestevez/softwareqa/tree/58ce499e60cd4fa89eda989b3043abb61f64cdb7/02-BUG-REPORTING)** Efficiently documenting bugs with steps to reproduce, expected behavior, and actual behavior.
 
