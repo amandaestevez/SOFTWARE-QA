@@ -141,6 +141,20 @@ Xray allows the creation of test repositories to organize test cases. The test r
 4. Add a name for your folder.
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/151fd5f5-d297-4375-bbce-852b519f43e1)
 
+5. Drag and drop the tests you created or create new ones.
+
+## Creating Test Plans
+
+1. In the Testing Board section, open the menu and select "Test Plans".
+2. Click "Create" and fill out the test plan.
+3. Click on your issue ID (i.e. AB-12) and add the tests to your test plan.
+4. There you can get an overview of your test plan status and make edits.
+
+## Executing Tests 
+1. Inside the Test Plan created, select "Create Test Execution".
+2. Select the Test Execution created and click the "Play" button.
+
+
 
 ## Sources:
 - [How to create and manage test cases with Xray and Jira](https://www.atlassian.com/devops/testing-tutorials/jira-xray-integration-manage-test-cases)
