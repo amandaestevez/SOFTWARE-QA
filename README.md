@@ -20,7 +20,7 @@ Users will find resources on:
 
 ### Intermediate Testing & QA Skills:
 
-**1. [Testing Techniques:](https://github.com/amandaestevez/softwareqa/tree/950ecf7869d74bb0433d6e1bdfc57ef180d7fd64/03-TESTING-TECHNIQUES)** Exploring various testing methodologies like black-box, white-box, and exploratory testing.
+**1. [Testing Techniques:](https://github.com/amandaestevez/softwareqa/tree/f6f74e209ec8fa73e928a1d5bcf9c5ec0ee1637c/03-TESTING-TECHNIQUES)** Exploring various testing methodologies like black-box, white-box, and exploratory testing.
 
 **2. Test Management Tools:**  Utilizing Jira for test case management, bug tracking, and collaboration.
 
