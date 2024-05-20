@@ -1,3 +1,4 @@
+# Bug Reporting
 ## Abstract
 
 This document outlines a well-defined, standardized bug-reporting format based on industry best practices, applicable across various bug-tracking tools. 
