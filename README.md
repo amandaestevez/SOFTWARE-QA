@@ -22,7 +22,7 @@ Users will find resources on:
 
 **1. [Testing Techniques:](https://github.com/amandaestevez/softwareqa/tree/f6f74e209ec8fa73e928a1d5bcf9c5ec0ee1637c/03-TESTING-TECHNIQUES)** Exploring various testing methodologies like black-box, white-box, and exploratory testing.
 
-**2. Test Management Tools:**  Utilizing Jira for test case management, bug tracking, and collaboration.
+**2. [Manage Tests With Jira and Xray:](https://github.com/amandaestevez/softwareqa/blob/de1f6b6a3cfe5a08bfffca3e5dc726907a7b456f/04-TEST-MANAGEMENT-TOOLS/README.md)**  Utilizing Jira for test case management.
 
 **3. Agile Methodology:**  Understanding Agile principles and integrating testing into frameworks like Scrum and Kanban.
 
