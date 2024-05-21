@@ -153,6 +153,9 @@ Xray allows the creation of test repositories to organize test cases. The test r
 ## Executing Tests 
 1. Inside the Test Plan created, select "Create Test Execution".
 2. Select the Test Execution created and click the "Play" button.
+3. The test results will show in your test execution screen:
+![image](https://github.com/amandaestevez/softwareqa/assets/123298275/dfc22d22-4dcc-401f-a80e-8417082a2831)
+
 
 
 
