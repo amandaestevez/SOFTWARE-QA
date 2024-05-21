@@ -19,6 +19,7 @@ _This description uses **team-managed** project._
 **Reporting & Analysis:**
 - Utilizes Xray reporting features to visualize test coverage and execution progress.
 
+
 | 1. | SETTING UP XRAY |
 |--|----------------|
 | 1.1. | Install the Xray app on your Jira instance. |
