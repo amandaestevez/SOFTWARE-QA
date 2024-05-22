@@ -26,7 +26,7 @@ Users will find resources on:
 
 **3. [Testing & Agile:](https://github.com/amandaestevez/softwareqa/tree/df85adf828ac8e13bd76a0deb6609d8a1741bfb5/05-TESTING-%26-AGILE)**  How testing fits in Scrum and Kanban.
 
-**4. Domain Knowledge:** Tailoring testing approaches for specific domains like finance or healthcare.
+**4. [Testing Per Domain](https://github.com/amandaestevez/softwareqa/tree/df2929eb6f083f9cb857be244d8e7cfadf519f70/06-TESTING-PER-DOMAIN)** Tailoring testing approaches for the top hiring industries for software development.
 
 ### Advanced Testing & QA Skills:
 
