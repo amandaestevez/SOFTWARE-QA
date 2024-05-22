@@ -30,7 +30,7 @@ Users will find resources on:
 
 ### Advanced Testing & QA Skills:
 
-**1. Automation Testing:** Automating repetitive test cases with tools like Selenium and Cypress.
+**1. [Testing Automation Tools & Frameworks](https://github.com/amandaestevez/softwareqa/tree/29b804466f2899a9656dc6028095aab0b3c63f2e/07-AUTOMATION-TESTING-TOOLS-%26-FRAMEWORKS)** The difference between testing automation tools and testing automation frameworks, and the main ones used.
 
 **2. API Testing:** testing APIs with different tools (e.g. Postman).
 
