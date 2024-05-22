@@ -24,7 +24,7 @@ Users will find resources on:
 
 **2. [Manage Tests With Jira and Xray:](https://github.com/amandaestevez/softwareqa/blob/de1f6b6a3cfe5a08bfffca3e5dc726907a7b456f/04-TEST-MANAGEMENT-TOOLS/README.md)**  Utilizing Jira for test case management.
 
-**3. Agile Methodology:**  Understanding Agile principles and integrating testing into frameworks like Scrum and Kanban.
+**3. [Testing & Agile:](https://github.com/amandaestevez/softwareqa/tree/df85adf828ac8e13bd76a0deb6609d8a1741bfb5/05-TESTING-%26-AGILE)**  How testing fits in Scrum and Kanban.
 
 **4. Domain Knowledge:** Tailoring testing approaches for specific domains like finance or healthcare.
 
