@@ -32,9 +32,9 @@ Users will find resources on:
 
 **1. [Testing Automation Tools & Frameworks:](https://github.com/amandaestevez/softwareqa/tree/29b804466f2899a9656dc6028095aab0b3c63f2e/07-AUTOMATION-TESTING-TOOLS-%26-FRAMEWORKS)** The difference between testing automation tools and testing automation frameworks, and the main ones used.
 
-**2. [API Testing  Tools:](https://github.com/amandaestevez/softwareqa/tree/bf806877bdd55d173be54a30635afc223ee18258/08-API-TESTING-TOOLS)** the main differences between Postman, SoapUI, and JMeter.
+**2. [API Testing  Tools:](https://github.com/amandaestevez/softwareqa/tree/bf806877bdd55d173be54a30635afc223ee18258/08-API-TESTING-TOOLS)** The main differences between Postman, SoapUI, and JMeter.
 
-**3. Performance Testing:** Testing software performance under load to ensure smooth operation under real-world conditions with JMeter, LoadRunner, and Gatling.
+**3. [Performance Testing:](https://github.com/amandaestevez/softwareqa/tree/5090b2cda05c253c43e67b24cca3659fbd4edc84/08-COMPARING-JMETER-LOADRUNNER-GATLING)** Testing software performance under load to ensure smooth operation under real-world conditions with JMeter, LoadRunner, and Gatling.
 
 **4. Security Testing:** Security concepts and testing software for vulnerabilities.
 
