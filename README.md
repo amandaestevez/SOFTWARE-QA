@@ -14,7 +14,7 @@ Users will find resources on:
 
 **1. [Implementing Testing Through the Software Development Lifecyle](https://github.com/amandaestevez/softwareqa/tree/9bff7ca9b096b920a63c2dcd3ad8945d8a082b2e/00-IMPLEMENTING-TESTING-THROUGH-SDLC)** Understanding the role of testing within the entire software development lifecycle.
 
-**2. [The Anatomy of a Test Case:](https://github.com/amandaestevez/softwareqa/tree/03531fd396603668277c9fbfa25d723c2469f1d0/01-TEST-CASES)** Crafting effective test cases that ensure errors and bugs are caught earlier in the development process.
+**2. [Create a Test Case Template for Jira](https://github.com/amandaestevez/softwareqa/blob/72939780c3d53526f7d4e4cb9c5301e9d528138f/01-CREATE-A-TEST-CASE-TEMPLATE-FOR-JIRA/README.md)** Crafting effective test cases that ensure errors and bugs are caught earlier in the development process.
 
 **3. [Bug Reporting:](https://github.com/amandaestevez/softwareqa/tree/f76ecaf851d7ed7cf56cf84a268a7330aa8f9e80/02-BUG-REPORTING)** Efficiently documenting bugs with steps to reproduce, expected behavior, and actual behavior.
 
