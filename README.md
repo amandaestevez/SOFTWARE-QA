@@ -12,7 +12,7 @@ Users will find resources on:
 
 ### Basic Testing & QA Skills
 
-**1. [Implementing Testing Through the Software Development Lifecyle:](https://github.com/amandaestevez/softwareqa/tree/9bff7ca9b096b920a63c2dcd3ad8945d8a082b2e/00-IMPLEMENTING-TESTING-THROUGH-SDLC)** Understanding the role of testing within the entire software development lifecycle.
+**1. [Implement Testing Through the Software Development Lifecycle:](https://github.com/amandaestevez/softwareqa/blob/2b9b084462cab0a0ce683e9a8099b741d3c6d199/00-IMPLEMENT-TESTING-THROUGH-SDLC/README.md)** Understanding the role of testing within the entire software development lifecycle.
 
 **2. [Create a Test Case Template for Jira:](https://github.com/amandaestevez/softwareqa/blob/72939780c3d53526f7d4e4cb9c5301e9d528138f/01-CREATE-A-TEST-CASE-TEMPLATE-FOR-JIRA/README.md)** Crafting effective test cases that ensure errors and bugs are caught earlier in the development process.
 
