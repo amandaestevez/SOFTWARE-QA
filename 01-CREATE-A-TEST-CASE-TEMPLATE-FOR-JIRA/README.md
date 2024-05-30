@@ -26,7 +26,7 @@ By planning tests, ***we can identify issues early on, saving time and money com
 
 ## Methodology:
 
-This document outlines a standardized structure for test case development through the case study of ZippyBank's mobile app development.
+This document outlines a standardized structure for test case development through the case study of ZippyBank's mobile app development. We will use this template as a base for our test case creation on Jira - once you know the information you need, it's easier to set it up in an automation tool.
 
 Although the design may vary between companies, these core components remain crucial in ensuring the tests are performed correctly.
 
@@ -112,6 +112,10 @@ Specifying post-conditions ensures the testing environment is maintained clean f
 
       Traceability ensures that all project requirements are thoroughly tested, minimizing the risk of defects slipping into production.
 
+ ## Creating and Managing Test Cases in Jira
+
+Now that you are done with your template, you can set your test case in Jira by following this set of instructions: [Manage Test Cases With Jira & Xray](https://github.com/amandaestevez/softwareqa/blob/4a4a070700729987436ecd37ed5de12d6bbe313f/04-MANAGE-TESTS-WITH-JIRA-AND-XRAY/README.md)
+
 ## Conclusion
 
-AA standardized test case structure fosters clear communication, enhances testing efficiency, minimizes errors, and streamlines traceability throughout the development lifecycle.
+A standardized test case structure fosters clear communication, enhances testing efficiency, minimizes errors, and streamlines traceability throughout the development lifecycle.
