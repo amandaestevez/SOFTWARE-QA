@@ -1,4 +1,4 @@
-# SLDC - TESTING & QA
+# Implementing Testing Through the Software Development Lifecycle
 
 
 _This document outlines the testing & QA roles in the software development lifecycle. It is valid whether one person or an entire team performs testing. To exemplify, we will follow the story of the development of a fictional mobile banking app called ZippyBank._
