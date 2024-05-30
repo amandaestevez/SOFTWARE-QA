@@ -12,7 +12,7 @@ Users will find resources on:
 
 ### Basic Testing & QA Skills
 
-**1. [Software Development Lifecycle (SDLC) & Testing:](https://github.com/AilenM93/softwareqa/tree/4a16ba48383a24a8a1b2e7a78c6c3090e3c2a3f9/00-SOFTWARE-DEVELOPMENT-LIFECYCLE-SDLC)** Understanding the role of testing within the entire software development lifecycle.
+**1. [Implementing Testing Through the Software Development Lifecyle](https://github.com/amandaestevez/softwareqa/tree/9bff7ca9b096b920a63c2dcd3ad8945d8a082b2e/00-IMPLEMENTING-TESTING-THROUGH-SDLC)** Understanding the role of testing within the entire software development lifecycle.
 
 **2. [The Anatomy of a Test Case:](https://github.com/amandaestevez/softwareqa/tree/03531fd396603668277c9fbfa25d723c2469f1d0/01-TEST-CASES)** Crafting effective test cases that ensure errors and bugs are caught earlier in the development process.
 
