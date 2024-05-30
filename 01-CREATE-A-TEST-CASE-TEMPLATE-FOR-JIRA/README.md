@@ -1,10 +1,11 @@
-## The Anatomy of a Test Case
+## Create a Test Case Template for Jira
 
 ### Previously
 In the previous chapter([click here to read it](https://github.com/amandaestevez/softwareqa/blob/3881ac15dfa8e1b06ae15f38b52bbf23335505bf/00-SOFTWARE-DEVELOPMENT-LIFECYCLE-SDLC/001-SLDC-TESTING-%26-QA.md)), you saw the main activities that *ZippyBank's* testing team worked on throughout the entire Software Development Lifecycle (SDLC). Now you will go through their test case.
 
+
 ## Abstract
-This document outlines a well-defined, standardized test case structure based on the industry's established best practices, detailing the core components of a test case.
+This document outlines a well-defined, standardized test case structure based on the industry's established best practices, detailing the core components of a test case which will then be transferred to Jira for test case management.
 
 |TABLE OF CONTENT | THE ANATOMY OF A TEST CASE |
 |-----------------|----------------------------|
