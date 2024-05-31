@@ -1,10 +1,10 @@
-# Testing in Scrum vs. Kanban
+# Understand the Role of Testing in Scrum and Kanban
 
-The table below compares the Scrum and Kanban frameworks, highlighting key differences in structure and the tester's role within each.
+The table below compares the Scrum and Kanban frameworks, highlighting key structural differences and the tester's role within each.
 
 ## Methodology
 
-The table will have four columns: "Stage", "Scrum", "Kanban", and "Role of "Tester". Rows will include aspects like project structure, work planning, and the tester's role (e.g., dedicated testing phase vs. continuous testing throughout).
+The table will have four columns: "Stage", "Scrum", "Kanban", and "Role of "Tester". Rows include aspects like project structure, work planning, and the tester's role (e.g., dedicated testing phase vs. continuous testing throughout).
 
 | STAGE | SCRUM | KANBAN | ROLE OF TESTER |
 |-------|------|-----|----|
