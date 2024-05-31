@@ -26,7 +26,7 @@ Users will find resources on:
 
 **3. [Understand the Role of Testing in Scrum and Kanban:](https://github.com/amandaestevez/softwareqa/blob/e30b29e2433384effc6fdb599e6832b2af45bfcf/05-UNDERSTAND-THE-ROLE-OF-TESTING-IN-SCRUM-AND-KANBAN/README.md)**  Identify the role of the tester in the different Agile frameworks.
 
-**4. [Testing Per Domain:](https://github.com/amandaestevez/softwareqa/tree/df2929eb6f083f9cb857be244d8e7cfadf519f70/06-TESTING-PER-DOMAIN)** Tailoring testing approaches for the top hiring industries for software development.
+**4. [Implement Testing Across Different Industries:](https://github.com/amandaestevez/softwareqa/blob/68bb3f34ffd140e5faf4010aa273335467a2d864/06-IMPLEMENT-TESTING-ACROSS-DIFFERENT-INDUSTRIES/README.md)** Tailor testing approaches for the top hiring industries for software development.
 
 ### Advanced Testing & QA Skills:
 
