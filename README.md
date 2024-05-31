@@ -30,7 +30,7 @@ Users will find resources on:
 
 ### Advanced Testing & QA Skills:
 
-**1. [Testing Automation Tools & Frameworks:](https://github.com/amandaestevez/softwareqa/tree/29b804466f2899a9656dc6028095aab0b3c63f2e/07-AUTOMATION-TESTING-TOOLS-%26-FRAMEWORKS)** The difference between testing automation tools and testing automation frameworks, and the main ones used.
+**1. [Automate Tests With Automation Tools and Frameworks:](https://github.com/amandaestevez/softwareqa/tree/f614f3c67c744aa1b8cc5297f656a883d8f804d0/07-AUTOMATE-TESTS-WITH-AUTOMATION-TOOLS-AND-FRAMEWORKS)** Test on a large scale with automated tests.
 
 **2. [API Testing  Tools:](https://github.com/amandaestevez/softwareqa/tree/bf806877bdd55d173be54a30635afc223ee18258/08-API-TESTING-TOOLS)** The main differences between Postman, SoapUI, and JMeter.
 
