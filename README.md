@@ -12,15 +12,15 @@ Users will find resources on:
 
 ### Basic Testing & QA Skills
 
-**1. [Implement Testing Through the Software Development Lifecycle:](https://github.com/amandaestevez/softwareqa/blob/2b9b084462cab0a0ce683e9a8099b741d3c6d199/00-IMPLEMENT-TESTING-THROUGH-SDLC/README.md)** Understanding the role of testing within the entire software development lifecycle.
+**1. [Implement Testing Through the Software Development Lifecycle:](https://github.com/amandaestevez/softwareqa/blob/2b9b084462cab0a0ce683e9a8099b741d3c6d199/00-IMPLEMENT-TESTING-THROUGH-SDLC/README.md)** Understand the role of testing within the entire software development lifecycle.
 
-**2. [Create a Test Case Template for Jira:](https://github.com/amandaestevez/softwareqa/blob/72939780c3d53526f7d4e4cb9c5301e9d528138f/01-CREATE-A-TEST-CASE-TEMPLATE-FOR-JIRA/README.md)** Crafting effective test cases that ensure errors and bugs are caught earlier in the development process.
+**2. [Create a Test Case Template for Jira:](https://github.com/amandaestevez/softwareqa/blob/72939780c3d53526f7d4e4cb9c5301e9d528138f/01-CREATE-A-TEST-CASE-TEMPLATE-FOR-JIRA/README.md)** Craft effective test cases that ensure errors and bugs are caught earlier in the development process.
 
-**3. [Record Bug Reports With Jira:](https://github.com/amandaestevez/softwareqa/blob/3bf06878e50ae4b9b4972e9a36a14020e8cdc194/02-RECORD-BUG-REPORTS-WITH-JIRA/README.md)** Efficiently documenting bugs with steps to reproduce, expected behavior, and actual behavior.
+**3. [Record Bug Reports With Jira:](https://github.com/amandaestevez/softwareqa/blob/3bf06878e50ae4b9b4972e9a36a14020e8cdc194/02-RECORD-BUG-REPORTS-WITH-JIRA/README.md)** Efficiently document bugs.
 
 ### Intermediate Testing & QA Skills:
 
-**1. [Testing Techniques:](https://github.com/amandaestevez/softwareqa/tree/f6f74e209ec8fa73e928a1d5bcf9c5ec0ee1637c/03-TESTING-TECHNIQUES)** Exploring various testing methodologies like black-box, white-box, and exploratory testing.
+**1. [Run the Right Tests With Testing Techniques:](https://github.com/amandaestevez/softwareqa/blob/73aa49867778886c39a62fbcd167cdf0b1f0f736/03-RUN-THE-RIGHT-TESTS-WITH-TESTING-TECHNIQUES/README.md)** Explore various testing techniques like Unit Testing, Acceptance Testing, and Regression Testing.
 
 **2. [Manage Tests With Jira and Xray:](https://github.com/amandaestevez/softwareqa/blob/de1f6b6a3cfe5a08bfffca3e5dc726907a7b456f/04-TEST-MANAGEMENT-TOOLS/README.md)**  Utilizing Jira for test case management.
 
