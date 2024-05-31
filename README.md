@@ -16,7 +16,7 @@ Users will find resources on:
 
 **2. [Create a Test Case Template for Jira:](https://github.com/amandaestevez/softwareqa/blob/72939780c3d53526f7d4e4cb9c5301e9d528138f/01-CREATE-A-TEST-CASE-TEMPLATE-FOR-JIRA/README.md)** Crafting effective test cases that ensure errors and bugs are caught earlier in the development process.
 
-**3. [Bug Reporting:](https://github.com/amandaestevez/softwareqa/tree/f76ecaf851d7ed7cf56cf84a268a7330aa8f9e80/02-BUG-REPORTING)** Efficiently documenting bugs with steps to reproduce, expected behavior, and actual behavior.
+**3. [Record Bug Reports With Jira:](https://github.com/amandaestevez/softwareqa/blob/3bf06878e50ae4b9b4972e9a36a14020e8cdc194/02-RECORD-BUG-REPORTS-WITH-JIRA/README.md)** Efficiently documenting bugs with steps to reproduce, expected behavior, and actual behavior.
 
 ### Intermediate Testing & QA Skills:
 
