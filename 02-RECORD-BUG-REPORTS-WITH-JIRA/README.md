@@ -1,9 +1,8 @@
-# Bug Reporting
-## Abstract
+# Record Bug Reports With Jira
 
 This document outlines a well-defined, standardized bug-reporting format based on industry best practices, applicable across various bug-tracking tools. 
 
-While numerous options exist like Jira, Bugzilla, and Monday.com, for smaller teams or projects starting out, like the fictional case we are following, a simple Google Sheet can be a great solution. Google Sheets offers a familiar, free, and shareable platform, **and since the core components of a bug report remain consistent**, this approach ensures efficient communication and faster bug resolution.
+Numerous options exist like Jira, Bugzilla, and Monday.com, but having a simple template on Google Sheets/Excel helps understand the necessary information for bug reporting, avoiding errors when setting it up in the bug reporting tools.
 
 
 ## What's a Bug Report?
