@@ -1,4 +1,4 @@
-# Automation Testing Tools vs. Frameworks
+# Automate Tests With Automation Tools And Frameworks
 
 This table clarifies the distinction between testing automation tools that directly interact with the application and testing automation frameworks that provide structure and support for building those tests.
 
