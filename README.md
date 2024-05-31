@@ -36,7 +36,7 @@ Users will find resources on:
 
 **3. [Implement Performance Tests With JMeter, LoadRunner, and Gatling:](https://github.com/amandaestevez/softwareqa/tree/5090b2cda05c253c43e67b24cca3659fbd4edc84/08-COMPARING-JMETER-LOADRUNNER-GATLING)** Testing software performance under load to ensure smooth operation under real-world conditions with JMeter, LoadRunner, and Gatling.
 
-**4. Security Testing:** Security concepts and testing software for vulnerabilities.
+**4. [Prevent Vulnerabilities With Security Tests:]** Security concepts and testing software for vulnerabilities.
 
 ## Conclusion
 This repository provides a collection of resources for software testing. We encourage you to explore the content, contribute your own testing practices, and help build a stronger testing community.
