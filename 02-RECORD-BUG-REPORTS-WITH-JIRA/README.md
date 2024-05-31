@@ -5,6 +5,7 @@ This document outlines a well-defined, standardized bug-reporting format based o
 
 While numerous options exist like Jira, Bugzilla, and Monday.com, for smaller teams or projects starting out, like the fictional case we are following, a simple Google Sheet can be a great solution. Google Sheets offers a familiar, free, and shareable platform, **and since the core components of a bug report remain consistent**, this approach ensures efficient communication and faster bug resolution.
 
+
 ## What's a Bug Report?
 A formal record of a software defect, facilitating analysis and rectification by developers.
 
