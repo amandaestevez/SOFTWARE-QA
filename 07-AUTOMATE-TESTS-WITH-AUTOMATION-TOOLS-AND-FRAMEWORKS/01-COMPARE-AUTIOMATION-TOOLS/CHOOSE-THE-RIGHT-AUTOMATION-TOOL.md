@@ -1,4 +1,4 @@
-# Testing Automation Tools
+# Choose the Right Testing Automation Tool
 
 The table compares Selenium, Appium & SoapUI for test automation, highlighting their focus and core functionalities.
 
