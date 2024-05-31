@@ -1,4 +1,5 @@
-# Comparing Security Testing Techniques.
+# Prevent Vulnerabilities With Security Testing Techniques
+
 This table provides a concise overview of various security testing techniques, outlining their focus and approach.
 
 ##  Methodology
