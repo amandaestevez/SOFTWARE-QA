@@ -22,9 +22,9 @@ Users will find resources on:
 
 **1. [Run the Right Tests With Testing Techniques:](https://github.com/amandaestevez/softwareqa/blob/73aa49867778886c39a62fbcd167cdf0b1f0f736/03-RUN-THE-RIGHT-TESTS-WITH-TESTING-TECHNIQUES/README.md)** Explore various testing techniques like Unit Testing, Acceptance Testing, and Regression Testing.
 
-**2. [Manage Tests With Jira and Xray:](https://github.com/amandaestevez/softwareqa/blob/de1f6b6a3cfe5a08bfffca3e5dc726907a7b456f/04-TEST-MANAGEMENT-TOOLS/README.md)**  Utilizing Jira for test case management.
+**2. [Manage Tests With Jira and Xray:](https://github.com/amandaestevez/softwareqa/blob/de1f6b6a3cfe5a08bfffca3e5dc726907a7b456f/04-TEST-MANAGEMENT-TOOLS/README.md)**  Utilize Jira for test case management.
 
-**3. [Testing & Agile:](https://github.com/amandaestevez/softwareqa/tree/df85adf828ac8e13bd76a0deb6609d8a1741bfb5/05-TESTING-%26-AGILE)**  How testing fits in Scrum and Kanban.
+**3. [Understand the Role of Testing in Scrum and Kanban:](https://github.com/amandaestevez/softwareqa/blob/e30b29e2433384effc6fdb599e6832b2af45bfcf/05-UNDERSTAND-THE-ROLE-OF-TESTING-IN-SCRUM-AND-KANBAN/README.md)**  Identify the role of the tester in the different Agile frameworks.
 
 **4. [Testing Per Domain:](https://github.com/amandaestevez/softwareqa/tree/df2929eb6f083f9cb857be244d8e7cfadf519f70/06-TESTING-PER-DOMAIN)** Tailoring testing approaches for the top hiring industries for software development.
 
