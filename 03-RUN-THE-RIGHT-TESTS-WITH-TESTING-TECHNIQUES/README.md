@@ -1,4 +1,5 @@
-## Testing Techniques
+## Run the Right Tests With Testing Techniques 
+
 Software testing techniques are the various methods to check that a software application functions as expected. There are many different testing techniques, and the best approach will vary depending on the specific software being tested.
 
 ## Methodology
