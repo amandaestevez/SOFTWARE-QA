@@ -1,4 +1,4 @@
-# Comparing JMeter, LoadRunner, and Gatling
+# Implement Performance Tests With JMeter, LoadRunner, And Gatling
 
 This table compares JMeter, LoadRunner, and Gatling for key performance testing considerations.
 
