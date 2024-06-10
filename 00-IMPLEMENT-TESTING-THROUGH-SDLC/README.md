@@ -140,5 +140,8 @@ Testing and QA play a vital role throughout the entire Software Development Life
 
 The next chapter introduces the anatomy of a test case, and we will dive deeper into ZippyBank's test case design. [Click here to access it](https://github.com/amandaestevez/softwareqa/blob/efdf2923fb846e50d1dcf2929510f433d04bfb6d/01-TEST-CASES/011-ANATOMY-OF-TEST-CASES.md)
 
+![diagram-export-10-06-2024-05_33_31](https://github.com/amandaestevez/softwareqa/assets/123298275/f177a5c6-e73a-45f1-a72d-b9717b7fc458)
+
+
 ## References
 - Cerquozzi, R., Decoutere, W., Dussa-Zieger, K., Riverin, J.-F., Hryszko, A., Klonk, M., Pilaeten, M., Posthuma, M., Reid, S., Riou du Cosquer, E. (chair), Roman, A., Stapp, L., Ulrich, S. (vice chair), & Zakaria, E. (2024). [ISTQB Certified Tester - Foundation Level Syllabus - v4.0. ISTQB.](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf);
