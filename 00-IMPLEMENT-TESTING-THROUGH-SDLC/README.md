@@ -43,8 +43,8 @@ Although the chosen SDLC impacts the testing activities performed, we will focus
 
 >1. For every software development activity, there is a corresponding test activity, so that all development activities are subject to quality control;
 >2. Different test levels have specific and different test objectives, which allows for testing to be appropriately comprehensive while avoiding redundancy;
->3. Test analysis and design for a given test level begins during the corresponding development phase of the SDLC, so that testing can adhere to the principle of early testing;
->4. Testers are involved in reviewing work products as soon as drafts of this documentation are available, so that this earlier testing and defect detection can support the shift-left strategy.
+>3. Test analysis and design for a given test level begins during the corresponding development phase of the SDLC so that testing can adhere to the principle of early testing;
+>4. Testers are involved in reviewing work products as soon as drafts of this documentation are available so that this earlier testing and defect detection can support the shift-left strategy.
 
 This way, the documentation and instruction can be adapted and applied through the different models.
 
@@ -140,8 +140,7 @@ Testing and QA play a vital role throughout the entire Software Development Life
 
 The next chapter introduces the anatomy of a test case, and we will dive deeper into ZippyBank's test case design. [Click here to access it](https://github.com/amandaestevez/softwareqa/blob/efdf2923fb846e50d1dcf2929510f433d04bfb6d/01-TEST-CASES/011-ANATOMY-OF-TEST-CASES.md)
 
-![diagram-export-10-06-2024-05_33_31](https://github.com/amandaestevez/softwareqa/assets/123298275/f177a5c6-e73a-45f1-a72d-b9717b7fc458)
-
+![diagram-export-10-06-2024-05_41_59](https://github.com/amandaestevez/softwareqa/assets/123298275/c80bfe96-78f1-4318-ad11-1de18742dd76)
 
 ## References
 - Cerquozzi, R., Decoutere, W., Dussa-Zieger, K., Riverin, J.-F., Hryszko, A., Klonk, M., Pilaeten, M., Posthuma, M., Reid, S., Riou du Cosquer, E. (chair), Roman, A., Stapp, L., Ulrich, S. (vice chair), & Zakaria, E. (2024). [ISTQB Certified Tester - Foundation Level Syllabus - v4.0. ISTQB.](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf);
