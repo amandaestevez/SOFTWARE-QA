@@ -82,4 +82,10 @@ JUnit annotations streamline the testing process. Here's a breakdown of the anno
 }
 ```
 
+**Summarizing:**
+This test class establishes a database connection before any tests are run. It then inserts sample data (a person named John) before each test and removes it afterward. Finally, it closes the connection after all tests are complete. The current test cases themselves require further development to interact with the database functionalities, but the overall structure for unit testing is in place.
+
+## Mockito
+
+Mockito is an open-source framework in Java that lets you create mock objects for unit testing, making your tests more isolated and easier to maintain.
 
