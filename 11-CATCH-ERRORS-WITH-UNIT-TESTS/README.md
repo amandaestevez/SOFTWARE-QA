@@ -31,7 +31,7 @@ public class DatabaseConnectionManagementSystemTest {
 **Test Method Annotations**
 JUnit annotations streamline the testing process. Here's a breakdown of the annotations used in this code:
 
-- @BeforeAll: It signals a method to run just once before all test cases within a test class are executed.
+**- @BeforeAll:** It signals a method to run just once before all test cases within a test class are executed.
 
 ```java
     @BeforeAll
@@ -41,7 +41,7 @@ JUnit annotations streamline the testing process. Here's a breakdown of the anno
 
 ```
 
-- @BeforeEach: It tells the testing framework to run a specific method before each test case in a class.
+**- @BeforeEach:** It tells the testing framework to run a specific method before each test case in a class.
 
 ```java
     @BeforeEach
@@ -49,7 +49,7 @@ JUnit annotations streamline the testing process. Here's a breakdown of the anno
         DatabaseConnectionManagementSystem.insertUserData(new Pessoa("John", LocalDateTime.of(2000,1,1,13,0,53)));
     }
 ```
-- @AfterEach: This annotation tells the framework to run a specific method after each test case execution.
+**- @AfterEach:** This annotation tells the framework to run a specific method after each test case execution.
 
 ```java
     @AfterEach
@@ -58,7 +58,7 @@ JUnit annotations streamline the testing process. Here's a breakdown of the anno
     }
 ```
 
-- @Test: annotation in JUnit marks a method as a test case to be executed during the testing process.
+**- @Test:** annotation in JUnit marks a method as a test case to be executed during the testing process.
 
 ```java
     @Test
@@ -72,7 +72,7 @@ JUnit annotations streamline the testing process. Here's a breakdown of the anno
     }
 ```
 
-- @AfterAll: It signifies a method to be executed after all test cases within a test class have finished running.
+**- @AfterAll:** It signifies a method to be executed after all test cases within a test class have finished running.
 
 ```java
     @AfterAll
@@ -81,6 +81,9 @@ JUnit annotations streamline the testing process. Here's a breakdown of the anno
     }
 }
 ```
+
+If the test ran correctly, you should see something like this in your debug console:
+![image](https://github.com/amandaestevez/SOFTWARE-QA/assets/123298275/26aa2420-9a76-4a9f-b1cc-f99fabea6bdc)
 
 **Summarizing:**
 This test class establishes a database connection before any tests are run. It then inserts sample data (a person named John) before each test and removes it afterward. Finally, it closes the connection after all tests are complete. The current test cases themselves require further development to interact with the database functionalities, but the overall structure for unit testing is in place.
