@@ -4,7 +4,7 @@ This GitHub repository meticulously documents the aspects of software testing, e
 
 ## Methodology
 
-- Each module clearly explains the relevant software testing concepts clearly and concisely.
+- Each module clearly explains the relevant software testing concepts concisely.
 - Documentation may include practical templates to illustrate specific approaches, such as sample test case outlines or bug reporting formats.
 - References to code snippets or external resources might be included, without directly embedding code or extensive external content.
 
@@ -37,6 +37,8 @@ Users will find resources on:
 **3. [Implement Performance Tests With JMeter, LoadRunner, and Gatling:](https://github.com/amandaestevez/softwareqa/tree/5090b2cda05c253c43e67b24cca3659fbd4edc84/08-COMPARING-JMETER-LOADRUNNER-GATLING)** Testing software performance under load to ensure smooth operation under real-world conditions with JMeter, LoadRunner, and Gatling.
 
 **4. [Prevent Vulnerabilities With Security Tests:](https://github.com/amandaestevez/softwareqa/blob/551ca519a790ea37768dc47d06930367e90f5d3c/10-PREVENT-VULNERABILITIES-WITH-SECURITY-TESTS/README.md)** Security concepts and testing software for vulnerabilities.
+
+**5. [Catch Errors With Unit Tests:](https://github.com/amandaestevez/SOFTWARE-QA/tree/e37f7003dee4fd8a9edd5e8eab823604a0b25ced/11-CATCH-ERRORS-WITH-UNIT-TESTS)** Test code efficiently and catch bugs before integrating modules.
 
 ## Conclusion
 This repository provides a collection of resources for software testing. We encourage you to explore the content, contribute with your testing practices, and help build a stronger testing community.
