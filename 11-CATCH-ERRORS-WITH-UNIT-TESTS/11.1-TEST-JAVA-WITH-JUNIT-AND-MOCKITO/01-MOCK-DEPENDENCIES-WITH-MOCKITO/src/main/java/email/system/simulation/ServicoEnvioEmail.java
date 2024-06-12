@@ -1,5 +1,7 @@
 package email.system.simulation;
 
+import Email;
+
 /*Line 06: The class "ServicoEnvioEmail" contains a private variable "plataforma".
 *This variable will be used to interact with the email sending platform.*/
 
