@@ -1,22 +1,21 @@
-package unit.testing.the.post.office.system.with.mockito;
+package src.test.java.unit.testing.the.post.office.system.with.mockito;
 
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.ArgumentMatchers.anyString;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
-import simulating.a.post.office.system.AddPerson;
-import simulating.a.post.office.system.LocationData;
-import simulating.a.post.office.system.Person;
-import simulating.a.post.office.system.PostOfficeApi;
+import src.main.java.simulating.a.post.office.system.AddPerson;
+import src.main.java.simulating.a.post.office.system.LocationData;
+import src.main.java.simulating.a.post.office.system.Person;
+import src.main.java.simulating.a.post.office.system.PostOfficeApi;
 
 import javax.management.RuntimeErrorException;
 import java.time.LocalDate;
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.ArgumentMatchers.anyString;
 
 @ExtendWith(MockitoExtension.class)
 public class AddPersonTest {

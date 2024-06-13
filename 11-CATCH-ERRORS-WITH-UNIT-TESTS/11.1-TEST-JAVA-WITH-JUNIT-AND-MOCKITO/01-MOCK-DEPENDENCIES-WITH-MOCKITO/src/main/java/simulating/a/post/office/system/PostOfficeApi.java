@@ -1,4 +1,4 @@
-package simulating.a.post.office.system;
+package src.main.java.simulating.a.post.office.system;
 
 public class PostOfficeApi {
 

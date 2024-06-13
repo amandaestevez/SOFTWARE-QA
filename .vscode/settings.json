@@ -1,3 +1,6 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.project.sourcePaths": [
+        "11-CATCH-ERRORS-WITH-UNIT-TESTS/11.1-TEST-JAVA-WITH-JUNIT-AND-MOCKITO/01-MOCK-DEPENDENCIES-WITH-MOCKITO"
+    ]
 }

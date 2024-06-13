@@ -1,9 +1,10 @@
-package email.system.testing;
+package src.test.java.email.system.testing;
 
-import email.system.simulation.Email;
-import email.system.simulation.Formato;
-import email.system.simulation.PlataformaDeEnvio;
-import email.system.simulation.ServicoEnvioEmail;
+import src.main.java.email.system.simulation.Email;
+import src.main.java.email.system.simulation.Formato;
+import src.main.java.email.system.simulation.PlataformaDeEnvio;
+import src.main.java.email.system.simulation.ServicoEnvioEmail;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -16,6 +17,7 @@ public class ServicoEnvioEmailTeste {
 
     //Lines 19-20: Inserts the instantiated class as a mock
     //This allows us to test the code without using its dependencies
+    
     @Mock
     private PlataformaDeEnvio plataforma;
 

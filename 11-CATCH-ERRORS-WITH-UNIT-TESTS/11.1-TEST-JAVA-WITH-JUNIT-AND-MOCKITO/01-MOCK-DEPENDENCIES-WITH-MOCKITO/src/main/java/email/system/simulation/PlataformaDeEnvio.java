@@ -1,6 +1,4 @@
-package email.system.simulation;
-
-import Email;
+package src.main.java.email.system.simulation;
 
 public class PlataformaDeEnvio {
 
