@@ -1,8 +1,10 @@
-package src.main.java.simulating.a.post.office.system;
+package simulating.a.post.office.system;
 
 //importing the LocalDate class from the java.time library
 //It allows us to work with dates
 import java.time.LocalDate;
+
+import simulating.a.post.office.system.LocationData;
 
 //importing the ChronoUnit class from the java.time.temporal library
 //used to work with spans of time between dates

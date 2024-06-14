@@ -1,9 +1,6 @@
-package src.test.java.email.system.testing;
+package email.system.testing;
 
-import src.main.java.email.system.simulation.Email;
-import src.main.java.email.system.simulation.Formato;
-import src.main.java.email.system.simulation.PlataformaDeEnvio;
-import src.main.java.email.system.simulation.ServicoEnvioEmail;
+import email.system.simulation.*;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

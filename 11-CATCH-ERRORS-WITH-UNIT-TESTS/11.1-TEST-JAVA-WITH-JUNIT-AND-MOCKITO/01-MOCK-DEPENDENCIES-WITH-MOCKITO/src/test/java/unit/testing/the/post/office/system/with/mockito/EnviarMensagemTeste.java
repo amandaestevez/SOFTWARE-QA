@@ -1,11 +1,11 @@
-package src.test.java.unit.testing.the.post.office.system.with.mockito;
+package unit.testing.the.post.office.system.with.mockito;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
-import src.main.java.simulating.a.post.office.system.EnviarMensagem;
-import src.main.java.simulating.a.post.office.system.Mensagem;
+import simulating.a.post.office.system.EnviarMensagem;
+import simulating.a.post.office.system.Mensagem;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;

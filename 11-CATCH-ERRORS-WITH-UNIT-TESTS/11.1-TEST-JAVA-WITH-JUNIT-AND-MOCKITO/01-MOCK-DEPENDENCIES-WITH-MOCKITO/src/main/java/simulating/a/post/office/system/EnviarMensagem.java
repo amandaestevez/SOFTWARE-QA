@@ -1,8 +1,8 @@
-package src.main.java.simulating.a.post.office.system;
+package simulating.a.post.office.system;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Collections;
+import java.util.List;
 
 public class EnviarMensagem {
 

@@ -1,11 +1,6 @@
-package src.main.java.simulating.a.post.office.system;
+package simulating.a.post.office.system;
 
-
-//This line imports the LocalDate class from the java.time library.
-//The LocalDate class is used to work with dates.
 import java.time.LocalDate;
-
-
 //This line defines a public class named AddPerson.
 //"Public" means that this class can be accessed by other classes.
 public class AddPerson {

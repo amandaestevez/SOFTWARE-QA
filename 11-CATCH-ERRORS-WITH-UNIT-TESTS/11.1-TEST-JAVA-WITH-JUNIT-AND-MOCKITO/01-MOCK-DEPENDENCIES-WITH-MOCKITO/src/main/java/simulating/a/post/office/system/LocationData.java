@@ -1,4 +1,4 @@
-package src.main.java.simulating.a.post.office.system;
+package simulating.a.post.office.system;
 
 
 public class LocationData {
