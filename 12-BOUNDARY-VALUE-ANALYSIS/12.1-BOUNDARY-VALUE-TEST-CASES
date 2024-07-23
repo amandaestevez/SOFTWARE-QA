@@ -3,3 +3,4 @@ Thermostat
 Your team is developing software for a thermostat controller that has a switch for turning the heat on and off.
 
 An algorithm has been implemented to match the following diagram representing the decision-making process of a thermostat controller designed to regulate heating:
+
