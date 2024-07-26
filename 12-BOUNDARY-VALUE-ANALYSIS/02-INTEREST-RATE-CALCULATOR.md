@@ -29,11 +29,11 @@ _Formula: BugsFound / (BugsTotal + IncorrectTestCases)_
 
 **Test suite efficiency:** The efficiency of a solution decreases as the number of steps taken to be effective increases.
 
-It is calculated as the percentage of the minimum number of tests cases required to find all bugs compared to the number submitted, multiplied by the percentage of bugs found.
+It is calculated as the percentage of the minimum number of test cases required to find all bugs compared to the number submitted, multiplied by the percentage of bugs found.
 
 _Formula: MinimumTestCases / SubmittedTestCases * BugsFound / BugsTotal_
 
-**Total score:** The total score is calculated as the product of the effectiveness and the efficiency.
+**Total score:** The total score is calculated as the product of effectiveness and efficiency.
 
 _Formula: Effectiveness * Efficiency_
 
@@ -64,7 +64,7 @@ Total score: 84% - the test set is **84% optimal.**
 
 -------------
 
-### 3nd iteration (07/26/2024)
+### 3rd iteration (07/26/2024)
 
 | TEST CASE ID | DEPOSIT AMOUNT | CLIENT AGE | EXPECTED INTEREST RATE | 
 |--------|-----------|--------|-------|
@@ -88,7 +88,7 @@ Total score: 79% - the test set is **79% optimal.**
 
 ----------
 
-### 4nd iteration (07/26/2024)
+### 4th iteration (07/26/2024)
 
 | TEST CASE ID | DEPOSIT AMOUNT | CLIENT AGE | EXPECTED INTEREST RATE | 
 |--------|-----------|--------|-------|
@@ -97,16 +97,82 @@ Total score: 79% - the test set is **79% optimal.**
 | TC 03 | $5,000 | 18 | 1.5% |
 | TC 04 | $10,000 | 18 | 1.5% |
 | TC 05 | $5,000 | 60 | 2% |
-| TC 06 | $99 | 18 | Unavailable |
-| TC 07 | $10,001 | 60 | Unavailable | 
-| TC 08 | $5,000 | 17 | Unavailable | 
-| TC 09 | $100 | 17 | Unavailable |
+| TC 06 | $10,001 | 60 | Unavailable | 
+| TC 07| $5,000 | 17 | Unavailable | 
+| TC 08 | $100 | 17 | Unavailable |
 
-(CHANGE LATER)
-Test suite effectiveness: 74% - meaning it can identify up to **84% of potential bugs found in the system.**
+Test suite effectiveness: 70% - meaning it can identify up to **70% of potential bugs found in the system.**
 
 Test suite efficiency: 92% - we have **more test cases** than required.
 
-Total score: 68% - the test set is **79% optimal.**
+Total score: 64% - the test set is **64% optimal.**
 
-**_Comments:_** By increasing the number of test cases when compared to the previous iterations, I actually decreased its performance - it didn't impact the effectiveness, and reduced efficiency, so we had more test cases than necessary. That's an issue because inefficient test cases can increase delivery time and costs.
+**_Comments:_** This time, the total score was lower even with fewer test cases. So the issue seems to be with the variables in the test cases. Let's change TC 01 back to $100, and TCs 03 and 04 to age 59.
+
+----------
+
+### 5th iteration (07/26/2024)
+
+| TEST CASE ID | DEPOSIT AMOUNT | CLIENT AGE | EXPECTED INTEREST RATE | 
+|--------|-----------|--------|-------|
+| TC 01 | $100 | 18 | 1% |
+| TC 02 | $1,000 | 18 | 1.3% | 
+| TC 03 | $5,000 | 59 | 1.5% |
+| TC 04 | $10,000 | 59 | 1.5% |
+| TC 05 | $5,000 | 60 | 2% |
+| TC 06 | $10,001 | 60 | Unavailable | 
+| TC 07| $5,000 | 17 | Unavailable | 
+| TC 08 | $100 | 17 | Unavailable |
+
+Test suite effectiveness: 75% - meaning it can identify up to **75% of potential bugs found in the system.**
+
+Test suite efficiency: 99% - we are almost at the ideal number of test cases.
+
+Total score: 74% - the test set is **74% optimal.**
+
+**_Comments:_** Now we changed TC 03 and TC 04 ages to 59, and the total score was lower. We also changed the TC 01 back to $100 with an interest rate of 1%. However, we have two test cases covering 1.5% interest rate and the age 59, so let's change TC 04 to 1%.
+
+----------
+
+### 6th iteration (07/26/2024)
+
+| TEST CASE ID | DEPOSIT AMOUNT | CLIENT AGE | EXPECTED INTEREST RATE | 
+|--------|-----------|--------|-------|
+| TC 01 | $100 | 18 | 1% |
+| TC 02 | $1,000 | 18 | 1.3% | 
+| TC 03 | $5,000 | 59 | 1.5% |
+| TC 04 | $999 | 59 | 1% |
+| TC 05 | $5,000 | 60 | 2% |
+| TC 06 | $10,001 | 60 | Unavailable | 
+| TC 07| $5,000 | 17 | Unavailable | 
+| TC 08 | $100 | 17 | Unavailable |
+
+Test suite effectiveness: 70% - meaning it can identify up to **70% of potential bugs found in the system.**
+
+Test suite efficiency: 92% - we are almost at the ideal number of test cases.
+
+Total score: 64% - the test set is **64% optimal.**
+
+**_Comments:_** That didn't work 😅 Considering that the test efficiency decreased, I'll then remove the TC 08.
+
+
+----------
+
+### 7th iteration (07/26/2024)
+
+| TEST CASE ID | DEPOSIT AMOUNT | CLIENT AGE | EXPECTED INTEREST RATE | 
+|--------|-----------|--------|-------|
+| TC 01 | $100 | 18 | 1% |
+| TC 02 | $1,000 | 18 | 1.3% | 
+| TC 03 | $5,000 | 59 | 1.5% | 
+| TC 04 | $999 | 59 | 1% |
+| TC 05 | $5,000 | 60 | 2% |
+| TC 06 | $10,001 | 60 | Unavailable | 
+| TC 07| $5,000 | 17 | Unavailable | 
+
+Test suite effectiveness: 70% - meaning it can identify up to **70% of potential bugs found in the system.** 
+
+Test suite efficiency: 100% - Yeeeyyy, back at 100% efficiency!!
+Total score: 70%.
+
+**_Comments:_** Well, although the test suite effectiveness remained the same, the efficiency actually increased! So let's keep 07 test cases and just change the age, deposit amount, and interest rate. Since the best result we had was the 2nd iteration, let's try to find a mid-term between the 2nd and the 7th iterations.
