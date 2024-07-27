@@ -175,4 +175,46 @@ Test suite effectiveness: 70% - meaning it can identify up to **70% of potential
 Test suite efficiency: 100% - Yeeeyyy, back at 100% efficiency!!
 Total score: 70%.
 
-**_Comments:_** Well, although the test suite effectiveness remained the same, the efficiency actually increased! So let's keep 07 test cases and just change the age, deposit amount, and interest rate. Since the best result we had was the 2nd iteration, let's try to find a mid-term between the 2nd and the 7th iterations.
+**_Comments:_** Well, although the test suite effectiveness remained the same, the efficiency actually increased! So since the best result we had was the 2nd iteration, let's try to find a mid-term between the 2nd and the 7th iterations.
+
+----------
+
+### 8th iteration (07/27/2024)
+
+| TEST CASE ID | DEPOSIT AMOUNT | CLIENT AGE | EXPECTED INTEREST RATE | 
+|--------|-----------|--------|-------|
+| TC 01 | $100 | 18 | 1% |
+| TC 02 | $1,000 | 18 | 1.3% | 
+| TC 03 | $5,000 | 59 | 1.5% | 
+| TC 04 | $999 | 17 | Unavailable |
+| TC 05 | $5,000 | 60 | 2% |
+| TC 06 | $10,001 | 60 | Unavailable | 
+
+Test suite effectiveness: 74% - meaning it can identify up to **74% of potential bugs found in the system.** 
+
+Test suite efficiency: 100% - The efficiency remained at 100% even though I reduced the number of test cases.
+
+Total score: 74%.
+
+**_Comments:_** In this iteration, we managed to increase effectiveness while maintaining high efficiency and having the lowest number of test cases of all iterations. The main difference between iterations 7 and 8 is that for 8 we only tested ages 17 and 59 once, which I believe increased the effectiveness. Let's try to test age 60 only once for the next iteration.
+
+----------
+
+### 9th iteration (07/27/2024)
+
+| TEST CASE ID | DEPOSIT AMOUNT | CLIENT AGE | EXPECTED INTEREST RATE | 
+|--------|-----------|--------|-------|
+| TC 01 | $100 | 18 | 1% |
+| TC 02 | $1,000 | 18 | 1.3% | 
+| TC 03 | $5,000 | 59 | 1.5% | 
+| TC 04 | $999 | 17 | Unavailable |
+| TC 05 | $5,000 | 60 | 2% |
+| TC 06 | $10,001 | 60 | Unavailable | 
+
+Test suite effectiveness: 74% - meaning it can identify up to **74% of potential bugs found in the system.** 
+
+Test suite efficiency: 100% - The efficiency remained at 100% even though I reduced the number of test cases.
+
+Total score: 74%.
+
+**_Comments:_** In this iteration, we managed to increase effectiveness while maintaining high efficiency and having the lowest number of test cases of all iterations. The main difference between iterations 7 and 8 is that for 8 we only tested ages 17 and 59 once, which I believe increased the effectiveness. Let's try to test age 60 only once for the next iteration.
