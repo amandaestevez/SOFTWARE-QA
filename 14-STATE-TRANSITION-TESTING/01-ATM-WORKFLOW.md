@@ -39,15 +39,140 @@ There are **x** important steps to creating optimal State transition tests:
 
 First, let's identify all the states and events/actions that cause the transitions:
 
-**- States:** WORKING, CARD ACCEPTED, TRANSACTION PROCESSED, SELF TESTING, WAITING SERVICE, WAITING POLICE.
+**- State Transitions:** WORKING, CARD ACCEPTED, TRANSACTION PROCESSED, SELF TESTING, WAITING SERVICE, WAITING POLICE.
 
-**- Transitions:** TURN ON, ACCEPT CARD, AUTOMATIC TESTING, CALL POLICE, PROCESS TRANSACTION, PULL CARD, PASS, FAIL, SERVICED, RETESTED.
+**- Actions** TURN ON, ACCEPT CARD, AUTOMATIC TESTING, CALL POLICE, PROCESS TRANSACTION, PULL CARD, PASS, FAIL, SERVICED, RETESTED.
 
 Second, let's create the State Transition Diagram:
 
-![state-transition-diagram](https://github.com/user-attachments/assets/e4708d7e-88ca-4f8f-9ba3-fa91f0245647)
+![workflow-diagram](https://github.com/user-attachments/assets/416efd5d-e848-4b5c-a502-3f4504520917)
+
 (I created the diagram with Eraser.io, but you can use other diagram-making tools such as Draw.io or even Canva).
 
 Third, let's define the test cases!
 
+-------
 
+## Defining Test Cases
+
+
+Let's start by prioritizing the test cases. This is crucial in helping maximize the chances of identifying high-impact defects early in the development cycle.
+
+**:bangbang: High Priority**
+**_Test Case 1:_** Normal Operation and Maintenance: Covers core functionalities and system recovery.
+
+**:heavy_exclamation_mark: Medium Priority**
+**_Test Case 2:_** Error Handling: Addresses critical error scenarios and system resilience.
+
+**:question_mark: Low Priority**
+**_Test Case 3:_** Retest function: While important, this test case covers a subset of the first test case's functionality
+
+Now let's build out the test cases considering the priority order.
+
+>[!IMPORTANT]
+> I found TWO WAYS to solve this issue:
+> One compromises effectiveness to increase efficiency. The other compromises efficiency to increase effectiveness.
+> I'll explain both ways here, but you should always consider what is more important for your organization.
+
+## 01: Effectiveness Over Efficiency 
+
+Before we move on, let's get one thing straight: in no way this is a sloppy test case. As you will see, the it's total score is 80%, because it achieves a 100% EFFECTIVENESS score, meaning it is 100% successful in finding bugs, even if there is a bit of overlap or redundancy in the sets.
+
+### Test Case 1: Normal Operation and Maintenance
+
+Objective: Verify normal ATM operation, maintenance, and recovery.
+Steps:
+
+| ACTION | NEXT STATE |
+|--------|------------|
+| TURN ON | WORKING |
+| ACCEPT CARD | CARD ACCEPTED |
+| PROCESS TRANSACTION | TRANSACTION PROCESSED |
+| PULL CARD | SELF TESTING |
+| PASS | WORKING |
+| AUTOMATIC TESTING | SELF TESTING |
+| FAIL | WAITING SERVICE |
+| SERVICED | WORKING |
+
+### Test Case 2: Error Handling
+
+Objective: Verify ATM behavior in case of a police call.
+
+| ACTION | NEXT STATE |
+|--------|------------|
+| TURN ON | WORKING |
+| ACCEPT CARD | CARD ACCEPTED |
+| CALL POLICE | WAITING POLICE |
+
+
+### Test Case 3: Retest
+
+Objective: Verify the retest process.
+
+| ACTION | NEXT STATE |
+|--------|------------|
+| TURN ON | WORKING |
+| AUTOMATIC TESTING | SELF TESTING |
+| FAIL | WAITING SERVICE |
+| RETESTED | SELF TESTING |
+
+Test suite effectiveness: 100%
+
+Test suite efficiency: 80%
+
+Overall score: 80%
+
+The interesting thing though is that if we remove test cases 02 and 03, we also get 100% effectiveness and 80% efficiency. So the test would look like this:
+
+### Test Case 1: Normal Operation and Maintenance
+
+Objective: Verify normal ATM operation, maintenance, and recovery.
+Steps:
+
+| ACTION | NEXT STATE |
+|--------|------------|
+| TURN ON | WORKING |
+| ACCEPT CARD | CARD ACCEPTED |
+| PROCESS TRANSACTION | TRANSACTION PROCESSED |
+| PULL CARD | SELF TESTING |
+| PASS | WORKING |
+| AUTOMATIC TESTING | SELF TESTING |
+| FAIL | WAITING SERVICE |
+| SERVICED | WORKING |
+
+----------
+## 02: Efficiency Over Effectiveness
+
+Here, to increase efficiency while keeping the effectiveness at an acceptable level, we can remove the third test case, which was low priority, and only stick to the first and second cases. 
+
+### Test Case 1: Normal Operation and Maintenance
+
+Objective: Verify normal ATM operation, maintenance, and recovery.
+Steps:
+
+| ACTION | NEXT STATE |
+|--------|------------|
+| TURN ON | WORKING |
+| ACCEPT CARD | CARD ACCEPTED |
+| PROCESS TRANSACTION | TRANSACTION PROCESSED |
+| PULL CARD | SELF TESTING |
+| PASS | WORKING |
+| AUTOMATIC TESTING | SELF TESTING |
+| FAIL | WAITING SERVICE |
+| SERVICED | WORKING |
+
+### Test Case 2: Error Handling
+
+Objective: Verify ATM behavior in case of a police call.
+
+| ACTION | NEXT STATE |
+|--------|------------|
+| TURN ON | WORKING |
+| ACCEPT CARD | CARD ACCEPTED |
+| CALL POLICE | WAITING POLICE |
+
+Test suite effectiveness: 90%
+
+Test suite efficiency: 98%
+
+Overall score: 88%
