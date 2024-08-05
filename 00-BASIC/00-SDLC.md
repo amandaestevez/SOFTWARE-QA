@@ -1,7 +1,7 @@
 # Implement Testing Through the SDLC
 
 
-_This document outlines the testing & QA roles in the software development lifecycle. It is valid whether one person or an entire team performs testing. To exemplify, we will follow the story of the development of a fictional mobile banking app called ZippyBank._
+_This document delineates the roles of testing and quality assurance (QA) within the software development lifecycle. The principles outlined herein apply regardless of whether testing is conducted by a dedicated team or an individual. To illustrate these concepts, the development of a fictional mobile banking application, ZippyBank, will be used as a case study._
 
 
 | TABLE OF CONTENT |
