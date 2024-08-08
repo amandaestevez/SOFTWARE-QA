@@ -1,6 +1,9 @@
 # Execution
 # 1. Environment Preparation
+The test environment simulates production or a real environment that enables the testers to influence their testing activities with the conditions and factors of the real environment. It is fully controlled & regulated by the testing team, which reduces the intervention of the developers in the testing process.
+
 # 2. Execution Steps
+
 # 3. Capturing Data
 
 # 4. Bug Reporting
