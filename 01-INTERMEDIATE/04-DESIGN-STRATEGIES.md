@@ -1,5 +1,12 @@
 # Test Case Design Strategies
 
+| TECHNIQUE | DESCRIPTION | ADVANTAGE | DISADVANTAGE |
+|-----------|-------------|-----------|--------------|
+| Equivalence Partitioning | Divides input data into valid and invalid categories for testing. | Efficient, covers a wide range of inputs. | May miss edge cases within partitions. |
+| Boundary Value Analysis | Tests values at the edges of input and output boundaries. | Effective for finding errors related to data limits. | May neglect logic within boundaries. |
+| Decision Table Testing | Creates a table mapping input conditions to expected outputs. | Systematic approach, good for complex decision logic. | Time-consuming to create and maintain tables.|
+| State Transition Testing | Tests behavior changes between different system states. | Efficient for state-driven systems, reveals state-related bugs. | Requires a thorough understanding of system states and transitions. |
+
 # 1. Equivalence Partitioning
 # 2. Boundary Value Analysis
 
