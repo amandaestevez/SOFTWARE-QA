@@ -1,9 +1,7 @@
 # SDLC & Testing
 
-_This document delineates the roles of testing and quality assurance (QA) within the software development lifecycle. The principles outlined herein apply regardless of whether a dedicated team or an individual conducts testing. To illustrate these concepts, the development of a fictional mobile banking application, ZippyBank, will be used as a case study._
-
-# Brief Description
-The `Software Development Life Cycle` is a process used to create software that meets the stakeholders' requirements cost-efficiently, avoiding rework and waste of resources.
+The `Software Development Lifecycle` is a process used to create software that meets the stakeholders' requirements cost-efficiently, avoiding rework and waste of resources.
+It consists of six core phases: `Planning`, `Design`, `Development`, `Testing`, `Deployment`, and `Maintenance`.
 
 Examples of the different SLDC models include:
 
@@ -16,24 +14,20 @@ The below RUP(Rational Unified Process) diagram created by IBM shows that Testin
 
 ![image](https://github.com/amandaestevez/softwareqa/assets/123298275/1e9d2107-61f6-4e98-ad4f-14ecb8ef0fdf)
 
-# Life Cycle Choice Importance
+# Lifecycle Choice Importance
 
-According to the [ISTQB Certified Tester - Foundation Level Syllabus - v4.0](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf), **testing must be adapted to the chosen SDLC process to succeed**. The SDLC method deeply impacts the scope and timing of testing activities.
+According to the [ISTQB Certified Tester - Foundation Level Syllabus - v4.0](https://istqb-main-web-prod.s3.amazonaws.com/media/documents/ISTQB_CTFL_Syllabus-v4.0.pdf), `testing must be adapted to the chosen SDLC process to succeed`. The SDLC method deeply impacts the scope and timing of testing activities.
 
-The six core phases below form the foundation of various SDLC models, which are arranged differently to fit project needs.
+This document will demonstrate how testing and quality assurance integrate throughout the software development lifecycle using a case study. It focuses on the fictional mobile banking application, `ZippyBank`, to illustrate how a robust testing strategy can `contribute to software quality` from inception to maintenance. The outlined principles apply regardless of whether a dedicated team or an individual conducts testing.
 
-## Methodology
-
-This document will employ a case study methodology to demonstrate the integration of testing and quality assurance (QA) throughout the software development lifecycle. The fictional mobile banking application, ZippyBank, will serve as a case study. By examining the six phases of the SDLC through the lens of ZippyBank, including risk identification in the planning phase and checklist utilization for deployment validation, this document will illustrate how a robust testing strategy can contribute to software quality from inception to maintenance.
-
-While the specific testing activities may vary based on the chosen SDLC model, this document will prioritize the adherence to testing best practices as outlined by the ISTQB rather than focusing on a particular SDLC framework:
+While the specific testing activities may vary based on the chosen SDLC model, this document prioritizes adherence to ISTQB recommendations rather than focusing on a particular SDLC framework.
 
 >1. For every software development activity, there is a corresponding test activity, so that all development activities are subject to quality control;
 >2. Different test levels have specific and different test objectives, which allows for testing to be appropriately comprehensive while avoiding redundancy;
 >3. Test analysis and design for a given test level begins during the corresponding development phase of the SDLC so that testing can adhere to the principle of early testing;
 >4. Testers are involved in reviewing work products as soon as drafts of this documentation are available so that this earlier testing and defect detection can support the shift-left strategy.
 
-This way, the documentation and instruction can be adapted and applied through the different models.
+This way, the documentation and instruction can be adapted and applied through the different models. The six core phases below form the foundation of various SDLC models, which can be arranged differently to fit project needs.
 
 # Phases
 
