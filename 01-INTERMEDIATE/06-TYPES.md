@@ -338,9 +338,163 @@ See you next time!
 
       SQL Injection
       Cross-site Scripting
-      Network
-        - Spoofing Attack
-        - IP Protection
+      
+# Network Security
+## Spoofing Attack on an Email Server
+
+Employees of a company are facing lots of bounced email notifications from email addresses they have never sent messages to. Select the options below which are correct for the given scenario.
+
+Options:
+
+**ALTERNATIVES**
+
+❌ 1. The mailboxes of the company users are full, resulting in bounced emails.
+
+✅ 2. Company email addresses seem to have been spoofed and used for spamming. 
+
+✅ 3. An email authentication method like DKIM can be used to prevent such incidents.
+
+❌ 4. SMTP would prevent such incidents as emails can be sent reliably using it.
+
+❌ 5. Having more than one email server would reduce such email bouncing incidents.
+
+-----------
+
+**EXPLANATION**
+
+This question shows a case of **_email spoofing_**, meaning someone is sending emails pretending to be them through the manipulation of the "from" address in the email header. 
+
+In simple terms, "email spoofing" is a tactic that tricks email users into thinking they have received an email from a source they know or trust, so they will open or respond to it. Basically, the email the receiver "sees" is different from the email that actually sent the spam message.
+
+Spoofing can be considered a form of **_identity theft_** and can involve phishing. However, phishing doesn't necessarily involve spoofing.
+
+In addition, email spoofing itself isn't generally considered hacking, because it doesn't involve breaking into a computer system to gain unauthorized access.
+
+❌ 1. The mailboxes of the company users are full, resulting in bounced emails.
+
+- **INCORRECT.** While some of the mailboxes _could_ be full, some recipient servers have filters that analyze incoming emails to identify possible spamming - if the email triggers the filter, it is rejected.
+
+-----------
+
+✅ 2. Company email addresses seem to have been spoofed and used for spamming. 
+
+- **CORRECT.** _There are clear indications of spoofing._ They have received bounced email notifications from emails they never messaged, which could mean someone added their email address in the RETURN-PATH (used to specify where bounced emails are sent).
+
+-----------
+
+✅ 3. An email authentication method like DKIM can be used to prevent such incidents.
+
+- **CORRECT.** DKIM stands for **_DomainKeys Identified Mail_** and is an authentication system that adds digital signatures to emails to ensure they are from a trusted source and haven't been forged or altered during transmission.
+
+The DKIM can be set manually, but some email providers already handle it for you.
+
+-----------
+
+❌ 4. SMTP would prevent such incidents as emails can be sent reliably using it.
+
+- **INCORRECT.** _Simple Mail Transfer Protocols (SMTP) is designed for efficient email delivery._ It doesn't verify the sender's identity or authentication. Hence, it wouldn't prevent spoofing from happening.
+
+-----------
+
+❌ 5. Having more than one email server would reduce such email bouncing incidents.
+
+- **INCORRECT.** Having more email servers **_wouldn't_** reduce the bounced email notifications because the attacker isn't sending the emails from your email servers. Hence, more email servers wouldn't make a difference in this case.
+
+-----------   
+
+Thank you so much for your time! If you think something is missing or would like to correct/add more information, please feel free to submit a pull request.
+
+See you next time!
+
+
+## Network Security: IP Protection
+# IP Protection
+
+Select the methods that can be used to **hide your public IP address** when making calls to a remote server over the internet.
+
+(Select all acceptable answers.)
+
+
+✅ 1. A Virtual Private Network.
+
+
+✅ 2. A Proxy Server.
+
+
+❌ 3. Using the HTTPS protocol.
+
+
+❌ 4. The Transport Layer Security protocol.
+
+
+❌ 5. Spoofing the device's MAC address.
+
+--------
+
+## ANSWERS
+
+The question above inquires about **_IP address security_**.Therefore, it is important to understand what is an IP address.
+
+An Internet Protocol (IP) address is a _unique identifying number_ that identifies a device's connection on a network. It acts like a digital address, allowing devices to find and communicate with each other. The Internet Service Provider (ISP) typically assigns the IP address.
+
+**Fun fact:**
+
+There are two main types of IP addresses:
+
+**_Static IP:_** This type of IP address remains the same even when you disconnect and reconnect to the network. It's usually used for servers or devices that need a permanent online identity.
+
+**_Dynamic IP:_** This is the more common type. Your ISP assigns a dynamic IP address that can change periodically, often when you restart your router or modem.
+
+So, while your IP address can change depending on the network type (home, work, coffee shop), it's not guaranteed to change every time you connect to a different network, especially if you have a static IP.
+
+Now, let's dissect the alternatives!
+
+------------
+
+✅ 1. A Virtual Private Network.
+
+**- CORRECT.** A Virtual Private Network, A.K.A. _VPN_ is a privacy tool that creates a secure tunnel for your internet traffic by encrypting your data and **masking your IP address** with a remote server's IP. Hence, you can use it to hide your own IP.
+
+------------
+
+✅ 2. A Proxy Server.
+
+**- CORRECT.** _A proxy server acts as a middleman between your device and the internet._ When you request a website, it goes to the proxy server first. The proxy server then fetches the website and returns it to you. This way, the website only sees the IP address of the proxy server, not your own. Proxy servers can be _hardware_ or _software_.
+
+------------
+
+❌ 3. Using the HTTPS protocol.
+
+**- INCORRECT.** _Hypertext Transfer Protocol Secure (HTTPS) is the secure version of HTTP._ It acts like a fortified communication channel between your **web browser** and a **website**. HTTPS uses Transport Layer Security (TLS) to encrypt the data you send and receive, making it unreadable to anyone who might intercept it. This is in contrast to regular HTTP, which transmits data in plain text, leaving it vulnerable to eavesdropping.
+
+It's important to note that while HTTPS encrypts your data, **it doesn't hide your IP address.** The website you connect to can still see your IP address.
+
+In addition, the HTTPS protocol is added to a website by the **Website administrator**. Therefore, as a user, the only thing you can do is access websites that have the HTTPS protocol.
+
+------------
+
+❌ 4. The Transport Layer Security protocol.
+
+**- INCORRECT.** The Transport Security Layer protocol - formerly known as Secure Sockets Layer (SSL) - ensures that the data you send over the internet is **encrypted**. Still, it doesn't hide your public IP address.
+
+------------
+
+❌ 5. Spoofing the device's MAC address.
+
+**- INCORRECT.** The MAC address identifies a physical device on a network, not the device's connection on a network. It is encoded by the Network Interface Card (NIC) manufacturer in a piece of hardware called the Network Interface Controller, that connects a computer to a network. Unlike the IP address, which can be dynamic and assigned by your ISP, a MAC address is typically PRIVATE and FIXED.
+
+Since they are two different things, even if you spoof your MAC address, **the IP address will still be visible unless you use a VPN or Proxy Server.**
+
+Minor Point:
+
+It's important to note that MAC addresses _can be spoofed_ (changed) on some devices, though it's not a common practice. 
+
+------------
+
+Thank you so much for your time! If you think something is missing or would like to correct/add more information, please feel free to submit a pull request.
+
+See you next time!
+
 
 # Prevent Vulnerabilities With Security Testing Techniques
 
